@@ -1,5 +1,5 @@
-/* V4.6: 新增长篇阅读词汇；已查阅的金山词霸释义与 AI 归纳分区展示。 */
-window.VOCAB_VERSION='4.6';
+/* V4.6.1: 新增长篇阅读词汇，补充已查阅的金山词霸简明释义；未能读取的词保留 AI 归纳。 */
+window.VOCAB_VERSION='4.6.1';
 window.VOCAB = [
   {
     "word": "official",
@@ -2893,7 +2893,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/patron",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "赞助人，资助人；顾客，老主顾；保护人；[宗]守护神"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=patron"
   },
   {
     "word": "appreciate",
@@ -2954,7 +2962,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/appreciate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "欣赏，重视；感激，欢迎；理解，领会；升值"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=appreciate"
   },
   {
     "word": "at times",
@@ -2995,7 +3011,7 @@ window.VOCAB = [
     ],
     "roots": [],
     "confusion": "",
-    "forms": "过去式 shrank /ʃræŋk/；过去分词 shrunk /ʃrʌŋk/",
+    "forms": "过去式 shrank /ʃræŋk/ 或 shrunk /ʃrʌŋk/；过去分词 shrunk /ʃrʌŋk/ 或 shrunken /ˈʃrʌŋkən/（较少见）",
     "sources": [
       "2025年6月第1套 · 长篇阅读"
     ],
@@ -3015,6 +3031,13 @@ window.VOCAB = [
         "zh": "退缩；畏缩",
         "ex": "shrink from responsibility",
         "translation": "逃避责任"
+      },
+      {
+        "pos": "n.",
+        "en": "psychiatrist or psychotherapist (informal)",
+        "zh": "精神科医生；心理治疗师（非正式）",
+        "ex": "see a shrink",
+        "translation": "去看心理治疗师"
       }
     ],
     "ipaNote": "英式读音由 AI 整理，未逐项核对",
@@ -3022,7 +3045,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/shrink",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "收缩；畏缩"
+      },
+      {
+        "pos": "n.",
+        "zh": "心理学家"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=shrink"
   },
   {
     "word": "municipal",
@@ -3059,7 +3094,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/municipal",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "市的，市政的；地方自治的；都市的，市营的，市制的；内政的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=municipal"
   },
   {
     "word": "combine",
@@ -3105,7 +3148,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/combine",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "使结合，混合；融合；协力，联合；同时做；（人）兼具，兼有；（使）结合；（使）联合；（使）合并；（使）综合"
+      },
+      {
+        "pos": "n.",
+        "zh": "联盟，集团；联合收割机"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=combine"
   },
   {
     "word": "engage",
@@ -3166,7 +3221,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/engage",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "（使）参与；吸引；雇用；适应；与…交战；引起（注意、兴趣）"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=engage"
   },
   {
     "word": "civil",
@@ -3212,7 +3275,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/civil",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "国民的；民用的；政府的；民事的；斯文的；有礼貌的；客气的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=civil"
   },
   {
     "word": "discourse",
@@ -3250,7 +3321,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/discourse",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "演讲，论述；论文；〈语〉语篇，话语"
+      },
+      {
+        "pos": "v.",
+        "zh": "论述"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=discourse"
   },
   {
     "word": "precisely",
@@ -3295,7 +3378,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/precisely",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adv.",
+        "zh": "精确地；恰好地；严谨地，严格地；一丝不苟地"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=precisely"
   },
   {
     "word": "assault",
@@ -3333,7 +3424,23 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/assault",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "攻击，袭击；侵犯（人身罪）；抨击"
+      },
+      {
+        "pos": "v.",
+        "zh": "袭击，殴打；使难受"
+      },
+      {
+        "pos": "adj.",
+        "zh": "军用的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=assault"
   },
   {
     "word": "mediate",
@@ -3378,7 +3485,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/mediate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "vt.",
+        "zh": "经调解解决；斡旋促成"
+      },
+      {
+        "pos": "vi.",
+        "zh": "调停，调解，斡旋"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=mediate"
   },
   {
     "word": "bank",
@@ -3432,7 +3551,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/bank",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "银行，库；埂，堤岸；堆，排；筹码"
+      },
+      {
+        "pos": "v.",
+        "zh": "存钱；（转弯时）倾斜飞行；堆积"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=bank"
   },
   {
     "word": "specific",
@@ -3485,7 +3616,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/specific",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "明确的；独特的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=specific"
   },
   {
     "word": "champion",
@@ -3531,7 +3670,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/champion",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "冠军；优胜者；斗争者；支持者"
+      },
+      {
+        "pos": "v.",
+        "zh": "支持；为…而斗争；捍卫"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=champion"
   },
   {
     "word": "capacity",
@@ -3577,7 +3728,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/capacity",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "容量；才能；职责；生产能力；载客量"
+      },
+      {
+        "pos": "adj.",
+        "zh": "座无虚席的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=capacity"
   },
   {
     "word": "incredible",
@@ -3622,7 +3785,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/incredible",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "不可思议的；惊人的；难以置信的；未必可能的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=incredible"
   },
   {
     "word": "institution",
@@ -3667,7 +3838,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/institution",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "机构；社会收容机构；习俗；建立；开创；制定；设立；出名的人；制度；习俗"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=institution"
   },
   {
     "word": "multiple",
@@ -3712,7 +3891,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/multiple",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "多重的；多个的；复杂的；多功能的"
+      },
+      {
+        "pos": "n.",
+        "zh": "〈数〉倍数；[电工学]并联；连锁商店；下有多个分社的旅行社"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=multiple"
   },
   {
     "word": "branch",
@@ -3758,7 +3949,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/branch",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "树枝；分支，旁系；部门，机构；支流，岔路；（血管）分枝"
+      },
+      {
+        "pos": "v.",
+        "zh": "分支；分岔"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=branch"
   },
   {
     "word": "claim",
@@ -3812,7 +4015,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/claim",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "声称；索取；赢得；需要；夺去（生命）"
+      },
+      {
+        "pos": "n.",
+        "zh": "声称，主张；权利；索赔"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=claim"
   },
   {
     "word": "neighborhood",
@@ -3849,7 +4064,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/neighborhood",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "地区；某地区的人；与某处邻近的地区；临近街坊"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=neighborhood"
   },
   {
     "word": "life",
@@ -3859,7 +4082,14 @@ window.VOCAB = [
       "n. 生活；人生",
       "n. 寿命；使用期限"
     ],
-    "roots": [],
+    "roots": [
+      {
+        "word": "live",
+        "ipa": "lɪv",
+        "meaning": "v. 居住；生活；生存（同源词）",
+        "checked": false
+      }
+    ],
     "confusion": "",
     "forms": "复数 lives /laɪvz/",
     "sources": [
@@ -3895,7 +4125,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/life",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "生活，生计；生命，性命；一生，寿命；人生，尘世"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=life"
   },
   {
     "word": "attractive",
@@ -3940,7 +4178,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/attractive",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "有魅力的；好看的；吸引人的；悦耳的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=attractive"
   },
   {
     "word": "functional",
@@ -3985,7 +4231,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/functional",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "功能的；[数]函数的；有多种用途的；机能性"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=functional"
   },
   {
     "word": "square",
@@ -4039,7 +4293,27 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/square",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "方形的；平方的；厚实的；两清的；公平的"
+      },
+      {
+        "pos": "n.",
+        "zh": "正方形；广场；平方；书呆子"
+      },
+      {
+        "pos": "v.",
+        "zh": "使成四方形；使平方；挺直身子；打平；买通"
+      },
+      {
+        "pos": "adv.",
+        "zh": "径直地"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=square"
   },
   {
     "word": "depressed",
@@ -4092,7 +4366,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/depressed",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "情绪低落的，沮丧的；萧条的；下陷的，低的；中间凹下的"
+      },
+      {
+        "pos": "v.",
+        "zh": "压下（depress的过去式和过去分词）；使愁苦；降低（价格）；使跌价"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=depressed"
   },
   {
     "word": "department",
@@ -4137,7 +4423,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/department",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "（政府）部，司，局；（医院）科；（大学）系；（商场）货品区"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=department"
   },
   {
     "word": "mall",
@@ -4167,7 +4461,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/mall",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "购物中心；林荫路；铁圈球场"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=mall"
   },
   {
     "word": "transform",
@@ -4212,7 +4514,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/transform",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "使改变形态；使改观"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=transform"
   },
   {
     "word": "vibrant",
@@ -4257,7 +4567,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/vibrant",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "充满生机的；生气勃勃的；精力充沛的；鲜艳的；醒目的；响亮的；洪亮的；强劲的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=vibrant"
   },
   {
     "word": "agency",
@@ -4302,7 +4620,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/agency",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "服务/代理/经销机构；（政府）专门机构"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=agency"
   },
   {
     "word": "focal",
@@ -4384,7 +4710,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/livable",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "适于居住的；（某事物）可忍受的；（生活条件，工作条件等）有生活价值的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=livable"
   },
   {
     "word": "urban",
@@ -4414,7 +4748,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/urban",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "城市的；城镇的；都市的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=urban"
   },
   {
     "word": "council",
@@ -4452,7 +4794,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/council",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "（政务）委员会，地方议会；委员；会议"
+      },
+      {
+        "pos": "adj.",
+        "zh": "（房屋或公寓）地方政府出租的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=council"
   },
   {
     "word": "release",
@@ -4506,7 +4860,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/release",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "释放；松开；发泄；解雇；（使）放松；公布"
+      },
+      {
+        "pos": "n.",
+        "zh": "释放；发行；排放；解脱"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=release"
   },
   {
     "word": "sustainability",
@@ -4549,7 +4915,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/sustainability",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "持续性，能维持性，永续性"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=sustainability"
   },
   {
     "word": "construction",
@@ -4594,7 +4968,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/construction",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "建造（方式）；施工；建筑（物）；结构；创立；解释"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=construction"
   },
   {
     "word": "craftsman",
@@ -4637,7 +5019,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/craftsman",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "工匠；手艺人；名匠；技工"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=craftsman"
   },
   {
     "word": "reliance",
@@ -4688,7 +5078,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/reliance",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "依靠，依赖；信任，信赖，信心；所信赖的人或物"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=reliance"
   },
   {
     "word": "preserve",
@@ -4791,7 +5189,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/artifact",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "人工制品，手工艺品"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=artifact"
   },
   {
     "word": "archive",
@@ -4905,7 +5311,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/ancestor",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "祖宗，祖先；（动物）原种；（机器）原型"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=ancestor"
   },
   {
     "word": "immigration",
@@ -5141,7 +5555,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/oral",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "口头的，口述的；口服的；属于或关于嘴的；构成或使用言语的"
+      },
+      {
+        "pos": "n.",
+        "zh": "（尤指外语考试中的）口试"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=oral"
   },
   {
     "word": "veteran",
@@ -5187,7 +5613,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/veteran",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "经验丰富的人，老兵；退伍军人"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=veteran"
   },
   {
     "word": "concert",
@@ -5225,7 +5659,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/concert",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "音乐会"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=concert"
   },
   {
     "word": "theater",
@@ -5271,7 +5713,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/theater",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "剧场；戏剧界；戏剧效果；[军]战区"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=theater"
   },
   {
     "word": "facilitate",
@@ -5308,7 +5758,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/facilitate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "促进；使便利"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=facilitate"
   },
   {
     "word": "in addition",
@@ -5351,7 +5809,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/in-addition",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "",
+        "zh": "除此之外，另外"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=in%20addition"
   },
   {
     "word": "decline",
@@ -5397,7 +5863,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/decline",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "减少；衰落；下降；衰退；婉拒；（单词）变格"
+      },
+      {
+        "pos": "n.",
+        "zh": "下降，减少；衰落"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=decline"
   },
   {
     "word": "stem",
@@ -5451,7 +5929,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/stem",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "茎；高脚杯的脚；烟斗柄；词干"
+      },
+      {
+        "pos": "v.",
+        "zh": "阻止"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=stem"
   },
   {
     "word": "in part",
@@ -5481,7 +5971,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/in-part",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "",
+        "zh": "在某种程度上，部分地；一半"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=in%20part"
   },
   {
     "word": "ideology",
@@ -5518,7 +6016,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/ideology",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "思想（体系），思想意识；意识形态；观念学；空想，空论"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=ideology"
   },
   {
     "word": "tutoring",
@@ -5555,7 +6061,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/tutoring",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "当家庭教师（tutor的现在分词）；任大学导师；任课"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=tutoring"
   },
   {
     "word": "program",
@@ -5609,7 +6123,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/program",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "程序；节目，节目单；计划，安排"
+      },
+      {
+        "pos": "v.",
+        "zh": "[计]给…编写程序；为…制定计划；设计安排活动；编排"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=program"
   },
   {
     "word": "divide",
@@ -5655,7 +6181,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/divide",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "（使）分开；分配；除以；分隔；（使）产生分歧"
+      },
+      {
+        "pos": "n.",
+        "zh": "明显差异；分界线，分水岭"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=divide"
   },
   {
     "word": "hire",
@@ -5701,7 +6239,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/hire",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "雇用，临时雇佣；租用"
+      },
+      {
+        "pos": "n.",
+        "zh": "租赁；新雇员"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=hire"
   },
   {
     "word": "participate",
@@ -5738,7 +6288,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/participate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "参与，参加"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=participate"
   },
   {
     "word": "immediate",
@@ -5784,7 +6342,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/immediate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "即刻的；当前的；紧迫的；接近的；直系的；直接的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=immediate"
   },
   {
     "word": "innovative",
@@ -5821,7 +6387,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/innovative",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "adj.",
+        "zh": "革新的；创新的；富有革新精神的；创新立异"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=innovative"
   },
   {
     "word": "maintain",
@@ -5867,7 +6441,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/maintain",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "维持，保持；坚称；维修，保养；供养"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=maintain"
   },
   {
     "word": "convince",
@@ -5905,7 +6487,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/convince",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "使相信；说服"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=convince"
   },
   {
     "word": "advocate",
@@ -5943,7 +6533,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/advocate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "vt.",
+        "zh": "拥护；主张；鼓吹"
+      },
+      {
+        "pos": "n.",
+        "zh": "拥护者，支持者；辩护律师"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=advocate"
   },
   {
     "word": "continually",
@@ -6032,7 +6634,15 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/remain",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "保持不变；继续存在；仍需去做；停留；剩下"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=remain"
   },
   {
     "word": "crowd",
@@ -6070,7 +6680,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/crowd",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "人群；观众；一伙人；老百姓；群众"
+      },
+      {
+        "pos": "v.",
+        "zh": "聚集在…；逼近；（使）拥挤；涌上心头"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=crowd"
   },
   {
     "word": "underestimate",
@@ -6115,7 +6737,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/underestimate",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "vt.",
+        "zh": "低估；对…估计不足；看轻；把…的价值估计过低"
+      },
+      {
+        "pos": "n.",
+        "zh": "低估；估计不足；过低评价，过低估价；轻视"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=underestimate"
   },
   {
     "word": "adolescent",
@@ -6160,7 +6794,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/adolescent",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "青少年"
+      },
+      {
+        "pos": "adj.",
+        "zh": "青少年的；青春期的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=adolescent"
   },
   {
     "word": "charge",
@@ -6238,7 +6884,19 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/charge",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "收费；把…记在账上；指控，谴责；猛冲；赋予…职责；给…充电"
+      },
+      {
+        "pos": "n.",
+        "zh": "收费；指控；负责，管理；被照管的人；电荷；火药"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=charge"
   },
   {
     "word": "perform",
@@ -6284,6 +6942,14 @@ window.VOCAB = [
     "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
     "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/perform",
     "dictionaryLabel": "剑桥英汉词典查询",
-    "referenceChecked": false
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "执行；起…作用；演出；表现（好 / 不好）"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=perform"
   }
 ];
