@@ -1,4 +1,5 @@
-/* 仅收录用户确认词条；释义为中文归纳，逐条核验状态以 checked 标识。 */
+/* Version 3: 原有47个正式词条；双语义项与搭配为学习性归纳，非逐字词典转录。 */
+window.VOCAB_VERSION = '3';
 window.VOCAB = [
   {
     "word": "official",
@@ -20,7 +21,37 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "official",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "person in authority",
+        "zh": "官员；主管人员",
+        "ex": "government officials",
+        "translation": "政府官员"
+      },
+      {
+        "pos": "n.",
+        "en": "sports representative",
+        "zh": "比赛裁判或工作人员",
+        "ex": "match official",
+        "translation": "比赛裁判"
+      },
+      {
+        "pos": "adj.",
+        "en": "authorized or formal",
+        "zh": "官方的；正式的；经授权的",
+        "ex": "official statement",
+        "translation": "官方声明"
+      },
+      {
+        "pos": "adj.",
+        "en": "connected with a position",
+        "zh": "公务的；职务上的",
+        "ex": "official duties",
+        "translation": "公务"
+      }
+    ]
   },
   {
     "word": "deplore",
@@ -35,7 +66,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "deplore",
-    "checked": true
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "strongly disapprove of",
+        "zh": "强烈反对；谴责",
+        "ex": "deplore violence",
+        "translation": "谴责暴力"
+      },
+      {
+        "pos": "v.",
+        "en": "deeply regret",
+        "zh": "痛惜；对……深感遗憾",
+        "ex": "deplore the loss of life",
+        "translation": "痛惜生命的丧失"
+      }
+    ]
   },
   {
     "word": "instruction",
@@ -56,7 +103,37 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "instruction",
-    "checked": true
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "teaching or training",
+        "zh": "教导；教学；指导（不可数）",
+        "ex": "receive instruction in English",
+        "translation": "接受英语教学"
+      },
+      {
+        "pos": "n.",
+        "en": "order or direction",
+        "zh": "命令；指示（可数）",
+        "ex": "follow instructions",
+        "translation": "遵照指示"
+      },
+      {
+        "pos": "n.",
+        "en": "directions for use",
+        "zh": "使用说明；操作步骤（常用复数）",
+        "ex": "assembly instructions",
+        "translation": "安装说明"
+      },
+      {
+        "pos": "n.",
+        "en": "computer command",
+        "zh": "计算机指令",
+        "ex": "execute an instruction",
+        "translation": "执行一条指令"
+      }
+    ]
   },
   {
     "word": "chronically",
@@ -77,7 +154,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "chronically",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adv.",
+        "en": "persistently over time",
+        "zh": "长期地；持续地（多指不良状态）",
+        "ex": "chronically absent",
+        "translation": "长期缺席"
+      },
+      {
+        "pos": "adv.",
+        "en": "with a lasting illness",
+        "zh": "患慢性病地；长期患病地",
+        "ex": "chronically ill patients",
+        "translation": "慢性病患者"
+      }
+    ]
   },
   {
     "word": "secretary",
@@ -98,7 +191,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "secretary",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "administrative assistant",
+        "zh": "秘书；行政助理",
+        "ex": "personal secretary",
+        "translation": "私人秘书"
+      },
+      {
+        "pos": "n.",
+        "en": "officer of an organization",
+        "zh": "书记；干事；秘书长",
+        "ex": "general secretary",
+        "translation": "总书记；秘书长"
+      },
+      {
+        "pos": "n.",
+        "en": "government minister",
+        "zh": "部长；大臣",
+        "ex": "Secretary of Education",
+        "translation": "教育部长"
+      }
+    ]
   },
   {
     "word": "respond to",
@@ -113,7 +229,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "respond",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr. v.",
+        "en": "reply to",
+        "zh": "回答；答复",
+        "ex": "respond to a question",
+        "translation": "回答问题"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "react to",
+        "zh": "对……作出反应；回应",
+        "ex": "respond to a crisis",
+        "translation": "应对危机"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "show an effect of treatment",
+        "zh": "对治疗产生反应",
+        "ex": "respond well to treatment",
+        "translation": "对治疗反应良好"
+      }
+    ]
   },
   {
     "word": "crisis",
@@ -128,7 +267,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "crisis",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "time of serious difficulty",
+        "zh": "危机；危急局面",
+        "ex": "financial crisis",
+        "translation": "金融危机"
+      },
+      {
+        "pos": "n.",
+        "en": "critical turning point",
+        "zh": "紧要关头；决定性时刻",
+        "ex": "reach a crisis point",
+        "translation": "到达危急关头"
+      }
+    ]
   },
   {
     "word": "urge",
@@ -144,7 +299,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "urge",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "strongly encourage",
+        "zh": "敦促；力劝",
+        "ex": "urge sb to do sth",
+        "translation": "敦促某人做某事"
+      },
+      {
+        "pos": "v.",
+        "en": "push onward",
+        "zh": "催促；驱使前进",
+        "ex": "urge a horse forward",
+        "translation": "催马前行"
+      },
+      {
+        "pos": "n.",
+        "en": "strong desire",
+        "zh": "强烈愿望；冲动",
+        "ex": "feel an urge to leave",
+        "translation": "有想离开的冲动"
+      }
+    ]
   },
   {
     "word": "community",
@@ -159,7 +337,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "community",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "people in a locality",
+        "zh": "社区；社区居民",
+        "ex": "local community",
+        "translation": "当地社区"
+      },
+      {
+        "pos": "n.",
+        "en": "group with shared interests",
+        "zh": "群体；共同体",
+        "ex": "scientific community",
+        "translation": "科学界"
+      },
+      {
+        "pos": "n.",
+        "en": "organisms living together",
+        "zh": "生物群落",
+        "ex": "plant community",
+        "translation": "植物群落"
+      }
+    ]
   },
   {
     "word": "after all",
@@ -174,7 +375,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "after-all",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr.",
+        "en": "considering a reason",
+        "zh": "毕竟；别忘了（解释理由）",
+        "ex": "After all, nobody is perfect.",
+        "translation": "毕竟，人无完人。"
+      },
+      {
+        "pos": "phr.",
+        "en": "despite previous expectations",
+        "zh": "终究；还是",
+        "ex": "She came after all.",
+        "translation": "她最终还是来了。"
+      }
+    ]
   },
   {
     "word": "show up",
@@ -189,7 +406,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "show-up",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr. v.",
+        "en": "arrive or appear",
+        "zh": "到场；出现",
+        "ex": "show up late",
+        "translation": "迟到"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "become visible",
+        "zh": "显现；变得明显",
+        "ex": "show up on a scan",
+        "translation": "在扫描图像上显现"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "embarrass someone",
+        "zh": "使某人难堪（show sb up）",
+        "ex": "show someone up",
+        "translation": "让某人丢脸"
+      }
+    ]
   },
   {
     "word": "what if",
@@ -204,7 +444,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "what-if",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr.",
+        "en": "suppose something happens",
+        "zh": "如果……怎么办；要是……会怎样",
+        "ex": "What if it rains?",
+        "translation": "如果下雨怎么办？"
+      }
+    ]
   },
   {
     "word": "reflection",
@@ -225,7 +474,37 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "reflection",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "image in a surface",
+        "zh": "倒影；映像",
+        "ex": "reflection in a mirror",
+        "translation": "镜中的影像"
+      },
+      {
+        "pos": "n.",
+        "en": "return of light or sound",
+        "zh": "光、热或声音的反射",
+        "ex": "reflection of light",
+        "translation": "光的反射"
+      },
+      {
+        "pos": "n.",
+        "en": "sign or representation",
+        "zh": "反映；体现",
+        "ex": "a reflection of society",
+        "translation": "社会的反映"
+      },
+      {
+        "pos": "n.",
+        "en": "careful thought",
+        "zh": "深思；反省；思考后的看法",
+        "ex": "on reflection",
+        "translation": "仔细考虑之后"
+      }
+    ]
   },
   {
     "word": "eject",
@@ -240,7 +519,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "eject",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "force out",
+        "zh": "驱逐；逐出",
+        "ex": "eject sb from a building",
+        "translation": "将某人逐出建筑物"
+      },
+      {
+        "pos": "v.",
+        "en": "expel or throw out",
+        "zh": "喷出；弹出",
+        "ex": "eject a disc",
+        "translation": "弹出光盘"
+      },
+      {
+        "pos": "v.",
+        "en": "escape from an aircraft",
+        "zh": "（飞行员）弹射逃生",
+        "ex": "eject from an aircraft",
+        "translation": "从飞机中弹射逃生"
+      }
+    ]
   },
   {
     "word": "apartment",
@@ -255,7 +557,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "apartment",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "self-contained home",
+        "zh": "公寓；套房",
+        "ex": "rent an apartment",
+        "translation": "租一套公寓"
+      },
+      {
+        "pos": "n.",
+        "en": "suite of rooms",
+        "zh": "（大型建筑内的）一组房间",
+        "ex": "royal apartments",
+        "translation": "王室套房"
+      }
+    ]
   },
   {
     "word": "investigate",
@@ -270,7 +588,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "investigate",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "examine to discover facts",
+        "zh": "调查；查明",
+        "ex": "investigate a crime",
+        "translation": "调查犯罪"
+      },
+      {
+        "pos": "v.",
+        "en": "study systematically",
+        "zh": "研究；审查",
+        "ex": "investigate the causes",
+        "translation": "研究原因"
+      }
+    ]
   },
   {
     "word": "relate to",
@@ -285,7 +619,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "relate-to",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr. v.",
+        "en": "be connected with",
+        "zh": "涉及；与……有关",
+        "ex": "relate to the problem",
+        "translation": "与问题有关"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "understand through experience",
+        "zh": "理解；认同；产生共鸣",
+        "ex": "relate to someone's experience",
+        "translation": "对某人的经历产生共鸣"
+      }
+    ]
   },
   {
     "word": "parent",
@@ -301,7 +651,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "parent",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "mother or father",
+        "zh": "父亲或母亲；父母之一",
+        "ex": "single parent",
+        "translation": "单亲家长"
+      },
+      {
+        "pos": "n.",
+        "en": "source or controlling body",
+        "zh": "亲本；母体；母公司",
+        "ex": "parent company",
+        "translation": "母公司"
+      },
+      {
+        "pos": "v.",
+        "en": "raise a child",
+        "zh": "抚养；养育",
+        "ex": "parent a child",
+        "translation": "养育孩子"
+      }
+    ]
   },
   {
     "word": "signal",
@@ -318,7 +691,51 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "signal",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "communicative sign",
+        "zh": "信号；暗号；示意",
+        "ex": "give a signal",
+        "translation": "发出信号"
+      },
+      {
+        "pos": "n.",
+        "en": "indication",
+        "zh": "迹象；标志",
+        "ex": "a warning signal",
+        "translation": "警示信号"
+      },
+      {
+        "pos": "n.",
+        "en": "electrical or transmitted information",
+        "zh": "电信号；通信信号",
+        "ex": "digital signal",
+        "translation": "数字信号"
+      },
+      {
+        "pos": "v.",
+        "en": "send a sign",
+        "zh": "发信号；示意",
+        "ex": "signal to the driver",
+        "translation": "向司机示意"
+      },
+      {
+        "pos": "v.",
+        "en": "indicate or announce",
+        "zh": "表明；预示",
+        "ex": "signal a change",
+        "translation": "预示变化"
+      },
+      {
+        "pos": "adj.",
+        "en": "notable",
+        "zh": "显著的；重大的（正式）",
+        "ex": "a signal achievement",
+        "translation": "一项重大成就"
+      }
+    ]
   },
   {
     "word": "hardship",
@@ -339,7 +756,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "hardship",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "severe difficulty",
+        "zh": "艰苦；困苦；艰难处境",
+        "ex": "financial hardship",
+        "translation": "经济困难"
+      }
+    ]
   },
   {
     "word": "cause",
@@ -355,7 +781,37 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "cause",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "reason something happens",
+        "zh": "原因；起因",
+        "ex": "cause of illness",
+        "translation": "疾病的原因"
+      },
+      {
+        "pos": "n.",
+        "en": "justification",
+        "zh": "理由；缘由",
+        "ex": "cause for concern",
+        "translation": "值得担忧的理由"
+      },
+      {
+        "pos": "n.",
+        "en": "aim or movement",
+        "zh": "事业；奋斗目标",
+        "ex": "a worthy cause",
+        "translation": "值得支持的事业"
+      },
+      {
+        "pos": "v.",
+        "en": "make happen",
+        "zh": "导致；引起；造成",
+        "ex": "cause damage",
+        "translation": "造成损害"
+      }
+    ]
   },
   {
     "word": "regardless of",
@@ -376,7 +832,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "regardless",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "prep. phr.",
+        "en": "without considering",
+        "zh": "不论；不管；不顾",
+        "ex": "regardless of age",
+        "translation": "不论年龄"
+      }
+    ]
   },
   {
     "word": "assume",
@@ -391,7 +856,37 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "assume",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "suppose without proof",
+        "zh": "假定；认为",
+        "ex": "assume that...",
+        "translation": "假定……"
+      },
+      {
+        "pos": "v.",
+        "en": "take on a role",
+        "zh": "承担；担任；取得",
+        "ex": "assume responsibility",
+        "translation": "承担责任"
+      },
+      {
+        "pos": "v.",
+        "en": "take on a form",
+        "zh": "呈现（性质、形态）",
+        "ex": "assume a new form",
+        "translation": "呈现新形态"
+      },
+      {
+        "pos": "v.",
+        "en": "pretend to have",
+        "zh": "装出（表情、态度）",
+        "ex": "assume an air of confidence",
+        "translation": "装出自信的样子"
+      }
+    ]
   },
   {
     "word": "intervene",
@@ -406,7 +901,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "intervene",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "become involved to help or change",
+        "zh": "干预；介入",
+        "ex": "intervene in a dispute",
+        "translation": "介入争端"
+      },
+      {
+        "pos": "v.",
+        "en": "interrupt speech",
+        "zh": "插话；打断",
+        "ex": "intervene in the conversation",
+        "translation": "插入谈话"
+      },
+      {
+        "pos": "v.",
+        "en": "happen or occur between",
+        "zh": "在期间发生；介于其间",
+        "ex": "intervening years",
+        "translation": "中间的若干年"
+      }
+    ]
   },
   {
     "word": "case",
@@ -422,7 +940,79 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "case",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "situation or circumstance",
+        "zh": "情况；情形",
+        "ex": "in this case",
+        "translation": "在这种情况下"
+      },
+      {
+        "pos": "n.",
+        "en": "instance",
+        "zh": "实例；事例",
+        "ex": "a typical case",
+        "translation": "典型案例"
+      },
+      {
+        "pos": "n.",
+        "en": "medical instance or patient",
+        "zh": "病例；患者",
+        "ex": "a confirmed case",
+        "translation": "确诊病例"
+      },
+      {
+        "pos": "n.",
+        "en": "legal matter",
+        "zh": "案件；诉讼",
+        "ex": "a court case",
+        "translation": "法庭案件"
+      },
+      {
+        "pos": "n.",
+        "en": "supporting argument",
+        "zh": "论据；理由",
+        "ex": "make a case for reform",
+        "translation": "为改革提出理由"
+      },
+      {
+        "pos": "n.",
+        "en": "container or covering",
+        "zh": "盒；箱；套",
+        "ex": "a phone case",
+        "translation": "手机壳"
+      },
+      {
+        "pos": "n.",
+        "en": "grammatical category",
+        "zh": "（语法）格",
+        "ex": "the nominative case",
+        "translation": "主格"
+      },
+      {
+        "pos": "n.",
+        "en": "letter form",
+        "zh": "字母大小写",
+        "ex": "upper case",
+        "translation": "大写"
+      },
+      {
+        "pos": "v.",
+        "en": "put in a case",
+        "zh": "装入盒中；加外壳",
+        "ex": "case the instrument",
+        "translation": "给仪器加外壳"
+      },
+      {
+        "pos": "v.",
+        "en": "inspect in advance",
+        "zh": "（非正式）事先探查；踩点",
+        "ex": "case a building",
+        "translation": "事先探查建筑"
+      }
+    ]
   },
   {
     "word": "as a result",
@@ -437,7 +1027,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "result",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr.",
+        "en": "consequently",
+        "zh": "因此；结果",
+        "ex": "As a result, prices rose.",
+        "translation": "因此价格上涨了。"
+      },
+      {
+        "pos": "phr.",
+        "en": "because of (as a result of)",
+        "zh": "由于；作为……的结果",
+        "ex": "as a result of illness",
+        "translation": "由于生病"
+      }
+    ]
   },
   {
     "word": "disproportionately",
@@ -455,6 +1061,11 @@ window.VOCAB = [
         "word": "proportionate",
         "meaning": "adj. 成比例的；相称的",
         "ipa": "prəˈpɔːʃənət"
+      },
+      {
+        "word": "proportion",
+        "ipa": "prəˈpɔːʃən",
+        "meaning": "n. 比例；部分；v. 使成比例"
       }
     ],
     "confusion": "",
@@ -463,7 +1074,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "disproportionately",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adv.",
+        "en": "out of proportion",
+        "zh": "不成比例地；相对而言过多或过少地",
+        "ex": "disproportionately affected",
+        "translation": "受到不成比例的影响"
+      }
+    ]
   },
   {
     "word": "deal with",
@@ -478,7 +1098,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "deal-with",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr. v.",
+        "en": "handle a problem",
+        "zh": "处理；应付",
+        "ex": "deal with stress",
+        "translation": "应对压力"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "interact with people",
+        "zh": "与……打交道",
+        "ex": "deal with customers",
+        "translation": "与顾客打交道"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "be about",
+        "zh": "涉及；论述",
+        "ex": "a book dealing with history",
+        "translation": "一本论述历史的书"
+      }
+    ]
   },
   {
     "word": "serve",
@@ -494,7 +1137,65 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "serve",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "provide food or drink",
+        "zh": "端上；供应（食物、饮料）",
+        "ex": "serve dinner",
+        "translation": "供应晚餐"
+      },
+      {
+        "pos": "v.",
+        "en": "help or provide services",
+        "zh": "服务；接待；为……提供服务",
+        "ex": "serve the community",
+        "translation": "服务社区"
+      },
+      {
+        "pos": "v.",
+        "en": "hold a position",
+        "zh": "任职；服役",
+        "ex": "serve as president",
+        "translation": "担任总统"
+      },
+      {
+        "pos": "v.",
+        "en": "spend a sentence",
+        "zh": "服刑",
+        "ex": "serve a prison sentence",
+        "translation": "服刑"
+      },
+      {
+        "pos": "v.",
+        "en": "fulfil a function",
+        "zh": "适合某用途；起作用",
+        "ex": "serve a purpose",
+        "translation": "起到作用"
+      },
+      {
+        "pos": "v.",
+        "en": "start play in sport",
+        "zh": "发球",
+        "ex": "serve the ball",
+        "translation": "发球"
+      },
+      {
+        "pos": "v.",
+        "en": "deliver a legal document",
+        "zh": "送达法律文书",
+        "ex": "serve a notice",
+        "translation": "送达通知"
+      },
+      {
+        "pos": "n.",
+        "en": "act of serving in sport",
+        "zh": "（体育）发球",
+        "ex": "a powerful serve",
+        "translation": "有力的发球"
+      }
+    ]
   },
   {
     "word": "channel",
@@ -510,7 +1211,44 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "channel",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "broadcast station or service",
+        "zh": "频道",
+        "ex": "news channel",
+        "translation": "新闻频道"
+      },
+      {
+        "pos": "n.",
+        "en": "means or route",
+        "zh": "渠道；途径",
+        "ex": "communication channel",
+        "translation": "沟通渠道"
+      },
+      {
+        "pos": "n.",
+        "en": "water passage",
+        "zh": "水道；海峡；航道",
+        "ex": "shipping channel",
+        "translation": "航道"
+      },
+      {
+        "pos": "n.",
+        "en": "groove or signal path",
+        "zh": "沟槽；信道",
+        "ex": "digital channel",
+        "translation": "数字信道"
+      },
+      {
+        "pos": "v.",
+        "en": "direct or convey",
+        "zh": "引导；输送；投入（资源、精力等）",
+        "ex": "channel resources into education",
+        "translation": "将资源投入教育"
+      }
+    ]
   },
   {
     "word": "resource",
@@ -526,7 +1264,37 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "resource",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "available supply or asset",
+        "zh": "资源；储备",
+        "ex": "natural resources",
+        "translation": "自然资源"
+      },
+      {
+        "pos": "n.",
+        "en": "useful material or means",
+        "zh": "可用资料；手段",
+        "ex": "learning resources",
+        "translation": "学习资源"
+      },
+      {
+        "pos": "n.",
+        "en": "ability to cope",
+        "zh": "应变能力；可利用的办法",
+        "ex": "inner resources",
+        "translation": "内在力量"
+      },
+      {
+        "pos": "v.",
+        "en": "supply with resources",
+        "zh": "为……提供资金、人力或设备",
+        "ex": "a well-resourced school",
+        "translation": "资源充足的学校"
+      }
+    ]
   },
   {
     "word": "promptly",
@@ -547,7 +1315,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "promptly",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adv.",
+        "en": "without delay",
+        "zh": "迅速地；立即",
+        "ex": "respond promptly",
+        "translation": "迅速回应"
+      },
+      {
+        "pos": "adv.",
+        "en": "at the agreed time",
+        "zh": "准时地",
+        "ex": "arrive promptly at nine",
+        "translation": "九点准时到达"
+      }
+    ]
   },
   {
     "word": "deplorable",
@@ -568,7 +1352,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "deplorable",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "shockingly bad",
+        "zh": "极其糟糕的；令人痛惜的",
+        "ex": "deplorable conditions",
+        "translation": "恶劣的条件"
+      },
+      {
+        "pos": "adj.",
+        "en": "deserving condemnation",
+        "zh": "应受谴责的",
+        "ex": "deplorable behaviour",
+        "translation": "应受谴责的行为"
+      }
+    ]
   },
   {
     "word": "attribute",
@@ -584,7 +1384,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "attribute",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "assign a cause",
+        "zh": "把……归因于",
+        "ex": "attribute success to effort",
+        "translation": "把成功归功于努力"
+      },
+      {
+        "pos": "v.",
+        "en": "assign authorship or origin",
+        "zh": "认为……出自某人；归属于",
+        "ex": "attribute a quote to an author",
+        "translation": "认为引语出自某位作者"
+      },
+      {
+        "pos": "n.",
+        "en": "quality or characteristic",
+        "zh": "属性；特质；特征",
+        "ex": "personal attributes",
+        "translation": "个人特质"
+      }
+    ]
   },
   {
     "word": "effect",
@@ -600,7 +1423,44 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "effect",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "influence",
+        "zh": "影响；作用",
+        "ex": "have an effect on health",
+        "translation": "对健康产生影响"
+      },
+      {
+        "pos": "n.",
+        "en": "result",
+        "zh": "结果；效果",
+        "ex": "side effects",
+        "translation": "副作用"
+      },
+      {
+        "pos": "n.",
+        "en": "artificial impression",
+        "zh": "（影视等）特效",
+        "ex": "special effects",
+        "translation": "特效"
+      },
+      {
+        "pos": "n.",
+        "en": "personal belongings",
+        "zh": "个人财物（复数）",
+        "ex": "personal effects",
+        "translation": "随身物品"
+      },
+      {
+        "pos": "v.",
+        "en": "bring about",
+        "zh": "使发生；促成；实现",
+        "ex": "effect a change",
+        "translation": "实现改变"
+      }
+    ]
   },
   {
     "word": "lead to",
@@ -615,7 +1475,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "lead",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr. v.",
+        "en": "result in",
+        "zh": "导致；引起",
+        "ex": "lead to failure",
+        "translation": "导致失败"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "provide a route to",
+        "zh": "通往；通向",
+        "ex": "a road leading to the town",
+        "translation": "通往城镇的道路"
+      }
+    ]
   },
   {
     "word": "comparatively",
@@ -641,7 +1517,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "comparatively",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adv.",
+        "en": "in comparison",
+        "zh": "相对地；比较而言",
+        "ex": "comparatively easy",
+        "translation": "相对容易"
+      }
+    ]
   },
   {
     "word": "concerning",
@@ -663,7 +1548,23 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "concerning",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "prep.",
+        "en": "about",
+        "zh": "关于；涉及",
+        "ex": "questions concerning safety",
+        "translation": "关于安全的问题"
+      },
+      {
+        "pos": "adj.",
+        "en": "causing worry",
+        "zh": "令人担忧的",
+        "ex": "a concerning trend",
+        "translation": "令人担忧的趋势"
+      }
+    ]
   },
   {
     "word": "due to",
@@ -678,7 +1579,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "due-to",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "prep. phr.",
+        "en": "because of",
+        "zh": "由于；因为",
+        "ex": "delay due to bad weather",
+        "translation": "因恶劣天气延误"
+      }
+    ]
   },
   {
     "word": "confront",
@@ -693,7 +1603,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "confront",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "face directly",
+        "zh": "面对；直面（困难）",
+        "ex": "confront a challenge",
+        "translation": "直面挑战"
+      },
+      {
+        "pos": "v.",
+        "en": "challenge someone directly",
+        "zh": "与某人对质",
+        "ex": "confront sb about a lie",
+        "translation": "就谎言与某人对质"
+      },
+      {
+        "pos": "v.",
+        "en": "present someone with a problem",
+        "zh": "使某人面临问题或事实",
+        "ex": "be confronted with difficulties",
+        "translation": "面临困难"
+      }
+    ]
   },
   {
     "word": "formulate",
@@ -701,14 +1634,43 @@ window.VOCAB = [
     "meaning": [
       "v. 制定，拟定（计划、政策等）；有条理地表达（思想）；配制（产品、药物等）"
     ],
-    "roots": [],
+    "roots": [
+      {
+        "word": "formula",
+        "ipa": "ˈfɔːmjələ",
+        "meaning": "n. 公式；配方；固定方法"
+      }
+    ],
     "confusion": "",
     "forms": "",
     "sources": [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "formulate",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "develop systematically",
+        "zh": "制定；拟定（计划、政策）",
+        "ex": "formulate a policy",
+        "translation": "制定政策"
+      },
+      {
+        "pos": "v.",
+        "en": "express precisely",
+        "zh": "有条理地表达；阐述",
+        "ex": "formulate an argument",
+        "translation": "阐述论点"
+      },
+      {
+        "pos": "v.",
+        "en": "prepare a formulation",
+        "zh": "配制（产品、药物等）",
+        "ex": "formulate a new drug",
+        "translation": "配制新药"
+      }
+    ]
   },
   {
     "word": "boost",
@@ -724,7 +1686,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "boost",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "increase or improve",
+        "zh": "提高；增加；增强",
+        "ex": "boost confidence",
+        "translation": "增强信心"
+      },
+      {
+        "pos": "v.",
+        "en": "promote or stimulate",
+        "zh": "促进；推动",
+        "ex": "boost economic growth",
+        "translation": "促进经济增长"
+      },
+      {
+        "pos": "n.",
+        "en": "increase or encouragement",
+        "zh": "增长；推动；激励",
+        "ex": "give morale a boost",
+        "translation": "鼓舞士气"
+      }
+    ]
   },
   {
     "word": "regarding",
@@ -745,7 +1730,16 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "regarding",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "prep.",
+        "en": "concerning",
+        "zh": "关于；至于；就……而言",
+        "ex": "information regarding fees",
+        "translation": "关于费用的信息"
+      }
+    ]
   },
   {
     "word": "identify",
@@ -753,14 +1747,50 @@ window.VOCAB = [
     "meaning": [
       "v. 识别，辨认；确认身份；发现，确定；（identify with）认同，产生共鸣；（identify A with B）把两者联系起来"
     ],
-    "roots": [],
+    "roots": [
+      {
+        "word": "identity",
+        "ipa": "aɪˈdentəti",
+        "meaning": "n. 身份；特征；同一性（同源词）"
+      }
+    ],
     "confusion": "",
     "forms": "",
     "sources": [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "identify",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "recognize",
+        "zh": "识别；辨认；确认身份",
+        "ex": "identify the suspect",
+        "translation": "辨认嫌疑人"
+      },
+      {
+        "pos": "v.",
+        "en": "discover or establish",
+        "zh": "发现；确定",
+        "ex": "identify the cause",
+        "translation": "找出原因"
+      },
+      {
+        "pos": "v.",
+        "en": "feel connected with",
+        "zh": "认同；产生共鸣（identify with）",
+        "ex": "identify with a character",
+        "translation": "对某个角色产生共鸣"
+      },
+      {
+        "pos": "v.",
+        "en": "associate with",
+        "zh": "将……与……联系起来（identify A with B）",
+        "ex": "identify success with wealth",
+        "translation": "将成功等同于财富"
+      }
+    ]
   },
   {
     "word": "underlying",
@@ -781,7 +1811,30 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "underlying",
-    "checked": true
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "fundamental or hidden",
+        "zh": "根本的；深层的；潜在的",
+        "ex": "underlying causes",
+        "translation": "深层原因"
+      },
+      {
+        "pos": "adj.",
+        "en": "lying beneath",
+        "zh": "位于下方的",
+        "ex": "underlying rock",
+        "translation": "下层岩石"
+      },
+      {
+        "pos": "v.",
+        "en": "form the basis of",
+        "zh": "构成……的基础（underlie 的现在分词）",
+        "ex": "assumptions underlying a theory",
+        "translation": "某理论所依据的假设"
+      }
+    ]
   },
   {
     "word": "direct",
@@ -798,7 +1851,65 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "direct",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "without an intermediary",
+        "zh": "直接的；亲自的",
+        "ex": "direct contact",
+        "translation": "直接接触"
+      },
+      {
+        "pos": "adj.",
+        "en": "without a detour",
+        "zh": "直达的",
+        "ex": "direct flight",
+        "translation": "直达航班"
+      },
+      {
+        "pos": "adj.",
+        "en": "frank",
+        "zh": "直率的",
+        "ex": "a direct answer",
+        "translation": "直截了当的回答"
+      },
+      {
+        "pos": "v.",
+        "en": "guide toward a place",
+        "zh": "指引方向；把……引向",
+        "ex": "direct resources to schools",
+        "translation": "将资源引向学校"
+      },
+      {
+        "pos": "v.",
+        "en": "manage or control",
+        "zh": "指导；管理；指挥",
+        "ex": "direct a project",
+        "translation": "管理项目"
+      },
+      {
+        "pos": "v.",
+        "en": "make a film or play",
+        "zh": "导演",
+        "ex": "direct a film",
+        "translation": "执导电影"
+      },
+      {
+        "pos": "v.",
+        "en": "instruct or order",
+        "zh": "命令；指示",
+        "ex": "direct sb to leave",
+        "translation": "命令某人离开"
+      },
+      {
+        "pos": "adv.",
+        "en": "straight to a destination",
+        "zh": "直接地；直达地",
+        "ex": "fly direct to London",
+        "translation": "直飞伦敦"
+      }
+    ]
   },
   {
     "word": "frame",
@@ -820,6 +1931,57 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "frame",
-    "checked": false
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "border or supporting structure",
+        "zh": "边框；框架；骨架；支架",
+        "ex": "picture frame",
+        "translation": "相框"
+      },
+      {
+        "pos": "n.",
+        "en": "body build",
+        "zh": "体格；身形",
+        "ex": "a slender frame",
+        "translation": "苗条的身形"
+      },
+      {
+        "pos": "n.",
+        "en": "single image",
+        "zh": "（电影或视频）一帧画面",
+        "ex": "video frame",
+        "translation": "视频帧"
+      },
+      {
+        "pos": "n.",
+        "en": "eyeglass structure",
+        "zh": "眼镜框（常用复数）",
+        "ex": "metal frames",
+        "translation": "金属镜框"
+      },
+      {
+        "pos": "v.",
+        "en": "put in a frame",
+        "zh": "给……装框",
+        "ex": "frame a photo",
+        "translation": "给照片装框"
+      },
+      {
+        "pos": "v.",
+        "en": "formulate or express",
+        "zh": "构思；制定；以某种方式表述",
+        "ex": "frame a question",
+        "translation": "构拟问题"
+      },
+      {
+        "pos": "v.",
+        "en": "falsely incriminate",
+        "zh": "诬陷；栽赃",
+        "ex": "be framed for a crime",
+        "translation": "被诬陷犯罪"
+      }
+    ]
   }
 ];
