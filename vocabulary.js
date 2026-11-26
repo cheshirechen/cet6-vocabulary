@@ -1,18 +1,19 @@
-/* Version 3: 原有47个正式词条；双语义项与搭配为学习性归纳，非逐字词典转录。 */
-window.VOCAB_VERSION = '3';
+/* V4: 全部正式词条参考剑桥英汉简体词典；学习性改写，非词典全文。附属词核验状态单独记录。 */
+window.VOCAB_VERSION='4';
 window.VOCAB = [
   {
     "word": "official",
     "ipa": "əˈfɪʃəl",
     "meaning": [
-      "n. 官员；高级职员；体育比赛的裁判或工作人员",
-      "adj. 官方的；正式的；经授权的；公务上的"
+      "adj. 公务的；公职的；官方的；正式的",
+      "n. 官员；负责人"
     ],
     "roots": [
       {
         "word": "office",
         "meaning": "n. 办公室；职务；办事处",
-        "ipa": "ˈɒfɪs"
+        "ipa": "ˈɒfɪs",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -21,43 +22,41 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "official",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
+        "pos": "adj.",
+        "en": "related to public duty",
+        "zh": "公务的；公职的",
+        "ex": "official capacity",
+        "translation": "公务身份"
+      },
+      {
+        "pos": "adj.",
+        "en": "authorized by authorities",
+        "zh": "官方的；正式的",
+        "ex": "official photos",
+        "translation": "官方照片"
+      },
+      {
         "pos": "n.",
-        "en": "person in authority",
-        "zh": "官员；主管人员",
-        "ex": "government officials",
+        "en": "person holding a position of authority",
+        "zh": "官员；负责人",
+        "ex": "government official",
         "translation": "政府官员"
-      },
-      {
-        "pos": "n.",
-        "en": "sports representative",
-        "zh": "比赛裁判或工作人员",
-        "ex": "match official",
-        "translation": "比赛裁判"
-      },
-      {
-        "pos": "adj.",
-        "en": "authorized or formal",
-        "zh": "官方的；正式的；经授权的",
-        "ex": "official statement",
-        "translation": "官方声明"
-      },
-      {
-        "pos": "adj.",
-        "en": "connected with a position",
-        "zh": "公务的；职务上的",
-        "ex": "official duties",
-        "translation": "公务"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "official"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "deplore",
     "ipa": "dɪˈplɔː",
     "meaning": [
-      "v. 痛惜；对……表示强烈不满或反对；谴责"
+      "v. 痛惜；强烈反对；谴责"
     ],
     "roots": [],
     "confusion": "",
@@ -66,35 +65,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "deplore",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "strongly disapprove of",
-        "zh": "强烈反对；谴责",
-        "ex": "deplore violence",
-        "translation": "谴责暴力"
-      },
-      {
-        "pos": "v.",
-        "en": "deeply regret",
-        "zh": "痛惜；对……深感遗憾",
+        "en": "regard something as very wrong",
+        "zh": "痛惜；强烈反对；谴责",
         "ex": "deplore the loss of life",
-        "translation": "痛惜生命的丧失"
+        "translation": "痛惜人员丧生"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "deplore"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "instruction",
     "ipa": "ɪnˈstrʌkʃən",
     "meaning": [
-      "n. 命令，指示；操作说明（常用复数）；教导，教学，训练"
+      "n. 指示；命令（可数，常复数）；操作说明；使用指南（复数）；教学；教授；指导（不可数）"
     ],
     "roots": [
       {
         "word": "instruct",
-        "meaning": "v. 指示，命令；教导",
-        "ipa": "ɪnˈstrʌkt"
+        "meaning": "v. 指示；命令；教授；委托律师",
+        "ipa": "ɪnˈstrʌkt",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -103,49 +101,49 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "instruction",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "teaching or training",
-        "zh": "教导；教学；指导（不可数）",
-        "ex": "receive instruction in English",
-        "translation": "接受英语教学"
+        "en": "order given to someone",
+        "zh": "指示；命令（可数，常复数）",
+        "ex": "under instructions",
+        "translation": "奉命"
       },
       {
         "pos": "n.",
-        "en": "order or direction",
-        "zh": "命令；指示（可数）",
-        "ex": "follow instructions",
-        "translation": "遵照指示"
+        "en": "directions for doing or using something",
+        "zh": "操作说明；使用指南（复数）",
+        "ex": "cooking instructions",
+        "translation": "烹饪说明"
       },
       {
         "pos": "n.",
-        "en": "directions for use",
-        "zh": "使用说明；操作步骤（常用复数）",
-        "ex": "assembly instructions",
-        "translation": "安装说明"
-      },
-      {
-        "pos": "n.",
-        "en": "computer command",
-        "zh": "计算机指令",
-        "ex": "execute an instruction",
-        "translation": "执行一条指令"
+        "en": "teaching a subject or skill",
+        "zh": "教学；教授；指导（不可数）",
+        "ex": "instruction in car maintenance",
+        "translation": "汽车维修教学"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "instruction",
+      "instructions"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "chronically",
-    "ipa": "ˈkrɒnɪkli",
+    "ipa": "ˈkrɒnɪkəli",
     "meaning": [
-      "adv. 长期地，持续地；慢性地；经常性地（尤指不良状况）"
+      "adv. 长期地；慢性地（多指不良状况）"
     ],
     "roots": [
       {
         "word": "chronic",
         "meaning": "adj. 慢性的；长期的",
-        "ipa": "ˈkrɒnɪk"
+        "ipa": "ˈkrɒnɪk",
+        "checked": false
       }
     ],
     "confusion": "",
@@ -154,35 +152,35 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "chronically",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adv.",
-        "en": "persistently over time",
-        "zh": "长期地；持续地（多指不良状态）",
-        "ex": "chronically absent",
-        "translation": "长期缺席"
-      },
-      {
-        "pos": "adv.",
-        "en": "with a lasting illness",
-        "zh": "患慢性病地；长期患病地",
-        "ex": "chronically ill patients",
-        "translation": "慢性病患者"
+        "en": "persisting for a long time",
+        "zh": "长期地；慢性地（多指不良状况）",
+        "ex": "chronically underfunded",
+        "translation": "长期资金不足"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "chronically"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "secretary",
     "ipa": "ˈsekrətəri",
     "meaning": [
-      "n. 秘书；组织的书记或干事；政府部门的部长、大臣"
+      "n. 秘书；委员会秘书；干事；负责管理的官员；部长；大臣（通常大写 Secretary）"
     ],
     "roots": [
       {
         "word": "secret",
-        "meaning": "n. 秘密；adj. 秘密的（历史词源关联）",
-        "ipa": "ˈsiːkrət"
+        "meaning": "n. 秘密；奥秘；秘诀　adj. 秘密的；保密的（历史词源关联）",
+        "ipa": "ˈsiːkrət",
+        "checked": true,
+        "etymology": "https://www.etymonline.com/word/secretary"
       }
     ],
     "confusion": "",
@@ -191,36 +189,48 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "secretary",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "administrative assistant",
-        "zh": "秘书；行政助理",
-        "ex": "personal secretary",
-        "translation": "私人秘书"
+        "en": "office assistant",
+        "zh": "秘书",
+        "ex": "a bilingual secretary",
+        "translation": "双语秘书"
       },
       {
         "pos": "n.",
-        "en": "officer of an organization",
-        "zh": "书记；干事；秘书长",
-        "ex": "general secretary",
-        "translation": "总书记；秘书长"
+        "en": "committee record keeper",
+        "zh": "委员会秘书",
+        "ex": "committee secretary",
+        "translation": "委员会秘书"
       },
       {
         "pos": "n.",
-        "en": "government minister",
-        "zh": "部长；大臣",
-        "ex": "Secretary of Education",
-        "translation": "教育部长"
+        "en": "official managing an organization",
+        "zh": "干事；负责管理的官员",
+        "ex": "company secretary",
+        "translation": "公司秘书"
+      },
+      {
+        "pos": "n.",
+        "en": "head of a government department",
+        "zh": "部长；大臣（通常大写 Secretary）",
+        "ex": "Foreign Secretary",
+        "translation": "外交大臣"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "secretary"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "respond to",
     "ipa": "rɪˈspɒnd tuː",
     "meaning": [
-      "phr. v. 回答，答复；对……作出反应；对治疗等产生反应"
+      "v. phr. 回答；回应；作出反应；对治疗产生疗效"
     ],
     "roots": [],
     "confusion": "",
@@ -229,68 +239,78 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "respond",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
-        "pos": "phr. v.",
-        "en": "reply to",
-        "zh": "回答；答复",
-        "ex": "respond to a question",
-        "translation": "回答问题"
+        "pos": "v. phr.",
+        "en": "reply or react to",
+        "zh": "回答；回应；作出反应",
+        "ex": "respond to the news",
+        "translation": "对消息作出反应"
       },
       {
-        "pos": "phr. v.",
-        "en": "react to",
-        "zh": "对……作出反应；回应",
-        "ex": "respond to a crisis",
-        "translation": "应对危机"
-      },
-      {
-        "pos": "phr. v.",
-        "en": "show an effect of treatment",
-        "zh": "对治疗产生反应",
-        "ex": "respond well to treatment",
-        "translation": "对治疗反应良好"
+        "pos": "v. phr.",
+        "en": "improve with treatment",
+        "zh": "对治疗产生疗效",
+        "ex": "respond to treatment",
+        "translation": "对治疗有反应"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "respond"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "crisis",
     "ipa": "ˈkraɪsɪs",
     "meaning": [
-      "n. 危机；危急时刻；决定性关头"
+      "n. 危机；极为困难的时期；紧要关头；危急时刻；疾病的危险期；关键期"
     ],
     "roots": [],
     "confusion": "",
-    "forms": "crises（复数）",
+    "forms": "crises（复数） /ˈkraɪsiːz/",
     "sources": [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "crisis",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "time of serious difficulty",
-        "zh": "危机；危急局面",
+        "en": "period of great difficulty",
+        "zh": "危机；极为困难的时期",
         "ex": "financial crisis",
         "translation": "金融危机"
       },
       {
         "pos": "n.",
-        "en": "critical turning point",
-        "zh": "紧要关头；决定性时刻",
-        "ex": "reach a crisis point",
-        "translation": "到达危急关头"
+        "en": "dangerous point in a situation",
+        "zh": "紧要关头；危急时刻",
+        "ex": "resolve the crisis",
+        "translation": "化解危机"
+      },
+      {
+        "pos": "n.",
+        "en": "turning point in serious illness",
+        "zh": "疾病的危险期；关键期",
+        "ex": "pass the crisis",
+        "translation": "度过危险期"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "crisis"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "urge",
     "ipa": "ɜːdʒ",
     "meaning": [
-      "v. 敦促，力劝；强烈要求；催促前进",
-      "n. 强烈的欲望，冲动"
+      "n. 强烈的欲望；冲动",
+      "v. 敦促；力劝；呼吁"
     ],
     "roots": [],
     "confusion": "argue（v. 争论；论证；主张）",
@@ -299,36 +319,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "urge",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
+        "pos": "n.",
+        "en": "powerful desire",
+        "zh": "强烈的欲望；冲动",
+        "ex": "resist the urge to laugh",
+        "translation": "克制想笑的冲动"
+      },
+      {
         "pos": "v.",
-        "en": "strongly encourage",
-        "zh": "敦促；力劝",
+        "en": "strongly advise or persuade",
+        "zh": "敦促；力劝；呼吁",
         "ex": "urge sb to do sth",
         "translation": "敦促某人做某事"
-      },
-      {
-        "pos": "v.",
-        "en": "push onward",
-        "zh": "催促；驱使前进",
-        "ex": "urge a horse forward",
-        "translation": "催马前行"
-      },
-      {
-        "pos": "n.",
-        "en": "strong desire",
-        "zh": "强烈愿望；冲动",
-        "ex": "feel an urge to leave",
-        "translation": "有想离开的冲动"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "urge"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "community",
     "ipa": "kəˈmjuːnəti",
     "meaning": [
-      "n. 社区及其居民；有共同兴趣或特征的群体；共同体；生物群落"
+      "n. 社区；群体；社团；界；生物群落；公众；群众（the community）"
     ],
     "roots": [],
     "confusion": "",
@@ -337,36 +355,41 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "community",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "people in a locality",
-        "zh": "社区；社区居民",
-        "ex": "local community",
-        "translation": "当地社区"
-      },
-      {
-        "pos": "n.",
-        "en": "group with shared interests",
-        "zh": "群体；共同体",
+        "en": "local or shared-interest group",
+        "zh": "社区；群体；社团；界",
         "ex": "scientific community",
         "translation": "科学界"
       },
       {
         "pos": "n.",
-        "en": "organisms living together",
+        "en": "group of organisms",
         "zh": "生物群落",
         "ex": "plant community",
         "translation": "植物群落"
+      },
+      {
+        "pos": "n.",
+        "en": "general public",
+        "zh": "公众；群众（the community）",
+        "ex": "serve the community",
+        "translation": "服务公众"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "community"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "after all",
     "ipa": "ˌɑːftər ˈɔːl",
     "meaning": [
-      "phr. 毕竟（用于解释理由）；终究，还是（与原先预期不同）"
+      "phr. 终究；最终还是；毕竟"
     ],
     "roots": [],
     "confusion": "",
@@ -375,29 +398,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "after-all",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "phr.",
-        "en": "considering a reason",
-        "zh": "毕竟；别忘了（解释理由）",
-        "ex": "After all, nobody is perfect.",
-        "translation": "毕竟，人无完人。"
+        "en": "despite earlier doubts",
+        "zh": "终究；最终还是",
+        "ex": "go ahead after all",
+        "translation": "最终还是继续进行"
       },
       {
         "pos": "phr.",
-        "en": "despite previous expectations",
-        "zh": "终究；还是",
-        "ex": "She came after all.",
-        "translation": "她最终还是来了。"
+        "en": "introducing a supporting reason",
+        "zh": "毕竟",
+        "ex": "After all, she is my sister.",
+        "translation": "毕竟她是我姐姐。"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "after-all"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "show up",
     "ipa": "ʃəʊ ʌp",
     "meaning": [
-      "phr. v. 到场，出现；显现，变得明显；（show sb up）使某人难堪"
+      "phr. v. 到达；露面（非正式）；使某人难堪（show sb up）"
     ],
     "roots": [],
     "confusion": "",
@@ -406,36 +434,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "show-up",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "phr. v.",
         "en": "arrive or appear",
-        "zh": "到场；出现",
+        "zh": "到达；露面（非正式）",
         "ex": "show up late",
         "translation": "迟到"
       },
       {
         "pos": "phr. v.",
-        "en": "become visible",
-        "zh": "显现；变得明显",
-        "ex": "show up on a scan",
-        "translation": "在扫描图像上显现"
-      },
-      {
-        "pos": "phr. v.",
-        "en": "embarrass someone",
+        "en": "embarrass another person",
         "zh": "使某人难堪（show sb up）",
-        "ex": "show someone up",
-        "translation": "让某人丢脸"
+        "ex": "show me up",
+        "translation": "让我难堪"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "show-up"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "what if",
     "ipa": "wɒt ɪf",
     "meaning": [
-      "phr. 如果……怎么办？；要是……会怎样？（提出假设或建议）"
+      "phr. 要是……怎么办？"
     ],
     "roots": [],
     "confusion": "",
@@ -444,28 +470,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "what-if",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "phr.",
-        "en": "suppose something happens",
-        "zh": "如果……怎么办；要是……会怎样",
-        "ex": "What if it rains?",
-        "translation": "如果下雨怎么办？"
+        "en": "asking about a possible event",
+        "zh": "要是……怎么办？",
+        "ex": "What if the bus is late?",
+        "translation": "公交车晚点怎么办？"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "what-if"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "reflection",
     "ipa": "rɪˈflekʃən",
     "meaning": [
-      "n. 倒影，映像；光、热或声音的反射；反映，体现；深思，反省；思考后的看法"
+      "n. 倒影；映像；反射（物理）；反映；体现；深思；审慎思考"
     ],
     "roots": [
       {
         "word": "reflect",
         "meaning": "v. 反射；反映；思考",
-        "ipa": "rɪˈflekt"
+        "ipa": "rɪˈflekt",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -474,43 +506,48 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "reflection",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "image in a surface",
+        "en": "image seen on a reflective surface",
         "zh": "倒影；映像",
-        "ex": "reflection in a mirror",
-        "translation": "镜中的影像"
+        "ex": "reflection in the mirror",
+        "translation": "镜中影像"
       },
       {
         "pos": "n.",
-        "en": "return of light or sound",
-        "zh": "光、热或声音的反射",
-        "ex": "reflection of light",
-        "translation": "光的反射"
+        "en": "return of light, heat or sound",
+        "zh": "反射（物理）",
+        "ex": "heat reflection",
+        "translation": "热反射"
       },
       {
         "pos": "n.",
-        "en": "sign or representation",
+        "en": "sign or result of something",
         "zh": "反映；体现",
-        "ex": "a reflection of society",
-        "translation": "社会的反映"
+        "ex": "a true reflection of your abilities",
+        "translation": "真实反映你的能力"
       },
       {
         "pos": "n.",
         "en": "careful thought",
-        "zh": "深思；反省；思考后的看法",
+        "zh": "深思；审慎思考",
         "ex": "on reflection",
-        "translation": "仔细考虑之后"
+        "translation": "仔细考虑后"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "reflection"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "eject",
-    "ipa": "ɪˈdʒekt",
+    "ipa": "iˈdʒekt",
     "meaning": [
-      "v. 驱逐，逐出；喷出，弹出；（飞行员）弹射逃生"
+      "v. 弹出；使弹出；从飞机中弹射逃生；驱逐；逐出"
     ],
     "roots": [],
     "confusion": "",
@@ -519,36 +556,41 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "eject",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "force out",
+        "en": "release from a machine",
+        "zh": "弹出；使弹出",
+        "ex": "eject the tape",
+        "translation": "弹出磁带"
+      },
+      {
+        "pos": "v.",
+        "en": "escape an aircraft in emergency",
+        "zh": "从飞机中弹射逃生",
+        "ex": "eject from a plane",
+        "translation": "从飞机弹射逃生"
+      },
+      {
+        "pos": "v.",
+        "en": "force someone to leave",
         "zh": "驱逐；逐出",
-        "ex": "eject sb from a building",
-        "translation": "将某人逐出建筑物"
-      },
-      {
-        "pos": "v.",
-        "en": "expel or throw out",
-        "zh": "喷出；弹出",
-        "ex": "eject a disc",
-        "translation": "弹出光盘"
-      },
-      {
-        "pos": "v.",
-        "en": "escape from an aircraft",
-        "zh": "（飞行员）弹射逃生",
-        "ex": "eject from an aircraft",
-        "translation": "从飞机中弹射逃生"
+        "ex": "ejected from the bar",
+        "translation": "被赶出酒吧"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "eject"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "apartment",
     "ipa": "əˈpɑːtmənt",
     "meaning": [
-      "n. 公寓套房；（尤指大型建筑内的）一组房间"
+      "n. 公寓套房（主要美式）；大型建筑中的豪华套房（复数，主要英式）"
     ],
     "roots": [],
     "confusion": "",
@@ -557,29 +599,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "apartment",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "self-contained home",
-        "zh": "公寓；套房",
-        "ex": "rent an apartment",
-        "translation": "租一套公寓"
+        "en": "set of rooms used as a home",
+        "zh": "公寓套房（主要美式）",
+        "ex": "holiday apartment",
+        "translation": "度假公寓"
       },
       {
         "pos": "n.",
-        "en": "suite of rooms",
-        "zh": "（大型建筑内的）一组房间",
-        "ex": "royal apartments",
-        "translation": "王室套房"
+        "en": "luxurious suite of rooms",
+        "zh": "大型建筑中的豪华套房（复数，主要英式）",
+        "ex": "Royal Apartments",
+        "translation": "王室套间"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "apartment"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "investigate",
     "ipa": "ɪnˈvestɪɡeɪt",
     "meaning": [
-      "v. 调查（事件、犯罪等）；研究，审查，查明"
+      "v. 调查；审查；查明"
     ],
     "roots": [],
     "confusion": "invest（v. 投资；投入）",
@@ -588,29 +635,27 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "investigate",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "examine to discover facts",
-        "zh": "调查；查明",
-        "ex": "investigate a crime",
-        "translation": "调查犯罪"
-      },
-      {
-        "pos": "v.",
-        "en": "study systematically",
-        "zh": "研究；审查",
-        "ex": "investigate the causes",
-        "translation": "研究原因"
+        "en": "examine carefully to find facts",
+        "zh": "调查；审查；查明",
+        "ex": "investigate the murder",
+        "translation": "调查谋杀案"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "investigate"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "relate to",
     "ipa": "rɪˈleɪt tuː",
     "meaning": [
-      "phr. v. 涉及，与……有关；理解并认同某人或某种经历"
+      "phr. v. 涉及；与……有关；理解；体谅某人；认同；产生共鸣"
     ],
     "roots": [],
     "confusion": "",
@@ -619,30 +664,41 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "relate-to",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "phr. v.",
-        "en": "be connected with",
+        "en": "be connected with or about",
         "zh": "涉及；与……有关",
-        "ex": "relate to the problem",
-        "translation": "与问题有关"
+        "ex": "relate to the effects of inflation",
+        "translation": "涉及通货膨胀的影响"
       },
       {
         "pos": "phr. v.",
-        "en": "understand through experience",
-        "zh": "理解；认同；产生共鸣",
-        "ex": "relate to someone's experience",
-        "translation": "对某人的经历产生共鸣"
+        "en": "understand another person",
+        "zh": "理解；体谅某人",
+        "ex": "relate to their children",
+        "translation": "理解自己的孩子"
+      },
+      {
+        "pos": "phr. v.",
+        "en": "understand via shared experience",
+        "zh": "认同；产生共鸣",
+        "ex": "relate to your problems",
+        "translation": "理解你的困难"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "relate-to"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "parent",
     "ipa": "ˈpeərənt",
     "meaning": [
-      "n. 父亲或母亲；父母之一；母体，亲本；母公司",
-      "v. 抚养，养育"
+      "n. 父亲；母亲；承担父母职责的人；母公司；总公司"
     ],
     "roots": [],
     "confusion": "",
@@ -651,38 +707,36 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "parent",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "mother or father",
-        "zh": "父亲或母亲；父母之一",
+        "en": "mother, father or parental carer",
+        "zh": "父亲；母亲；承担父母职责的人",
         "ex": "single parent",
         "translation": "单亲家长"
       },
       {
         "pos": "n.",
-        "en": "source or controlling body",
-        "zh": "亲本；母体；母公司",
+        "en": "company owning other companies",
+        "zh": "母公司；总公司",
         "ex": "parent company",
         "translation": "母公司"
-      },
-      {
-        "pos": "v.",
-        "en": "raise a child",
-        "zh": "抚养；养育",
-        "ex": "parent a child",
-        "translation": "养育孩子"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "parent"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "signal",
     "ipa": "ˈsɪɡnəl",
     "meaning": [
-      "n. 信号，暗号；迹象；电信号；交通信号",
-      "v. 发信号，示意；表明，预示",
-      "adj. 显著的，重大的（正式）"
+      "n. 信号；示意；电信号；电波信号；迹象；征兆",
+      "v. 发信号；示意；表示；显示；标志着",
+      "adj. 显著的；不寻常的（正式）"
     ],
     "roots": [],
     "confusion": "",
@@ -691,63 +745,69 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "signal",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "communicative sign",
-        "zh": "信号；暗号；示意",
-        "ex": "give a signal",
+        "en": "action conveying information",
+        "zh": "信号；示意",
+        "ex": "give the signal",
         "translation": "发出信号"
       },
       {
         "pos": "n.",
-        "en": "indication",
-        "zh": "迹象；标志",
-        "ex": "a warning signal",
-        "translation": "警示信号"
+        "en": "electrical or radio transmission",
+        "zh": "电信号；电波信号",
+        "ex": "TV signal",
+        "translation": "电视信号"
       },
       {
         "pos": "n.",
-        "en": "electrical or transmitted information",
-        "zh": "电信号；通信信号",
-        "ex": "digital signal",
-        "translation": "数字信号"
+        "en": "indication of something",
+        "zh": "迹象；征兆",
+        "ex": "a clear signal",
+        "translation": "明显的迹象"
       },
       {
         "pos": "v.",
-        "en": "send a sign",
+        "en": "communicate by a sign",
         "zh": "发信号；示意",
-        "ex": "signal to the driver",
-        "translation": "向司机示意"
+        "ex": "signal for help",
+        "translation": "发出求救信号"
       },
       {
         "pos": "v.",
-        "en": "indicate or announce",
-        "zh": "表明；预示",
-        "ex": "signal a change",
-        "translation": "预示变化"
+        "en": "indicate intention or change",
+        "zh": "表示；显示；标志着",
+        "ex": "signal the end of an era",
+        "translation": "标志一个时代结束"
       },
       {
         "pos": "adj.",
-        "en": "notable",
-        "zh": "显著的；重大的（正式）",
-        "ex": "a signal achievement",
-        "translation": "一项重大成就"
+        "en": "unusually noticeable",
+        "zh": "显著的；不寻常的（正式）",
+        "ex": "a signal success",
+        "translation": "重大成功"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "signal"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "hardship",
     "ipa": "ˈhɑːdʃɪp",
     "meaning": [
-      "n. 艰苦，困苦；造成痛苦或困难的境况"
+      "n. 艰苦；困境；困难"
     ],
     "roots": [
       {
         "word": "hard",
         "meaning": "adj. 艰难的；坚硬的；adv. 努力地",
-        "ipa": "hɑːd"
+        "ipa": "hɑːd",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -756,23 +816,29 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "hardship",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "severe difficulty",
-        "zh": "艰苦；困苦；艰难处境",
-        "ex": "financial hardship",
+        "en": "difficult living conditions",
+        "zh": "艰苦；困境；困难",
+        "ex": "economic hardship",
         "translation": "经济困难"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "hardship"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "cause",
     "ipa": "kɔːz",
     "meaning": [
-      "n. 原因，起因；理由；事业，奋斗目标",
-      "v. 导致，引起；使发生"
+      "n. 原因；起因；理由；根据；事业；目标；原则",
+      "v. 导致；引起；造成",
+      "conj. 因为（非正式，也写作 'cause）"
     ],
     "roots": [],
     "confusion": "",
@@ -781,49 +847,62 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "cause",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "reason something happens",
+        "en": "reason for an event",
         "zh": "原因；起因",
-        "ex": "cause of illness",
-        "translation": "疾病的原因"
+        "ex": "cause of the fire",
+        "translation": "火灾原因"
       },
       {
         "pos": "n.",
-        "en": "justification",
-        "zh": "理由；缘由",
+        "en": "reason for a feeling or action",
+        "zh": "理由；根据",
         "ex": "cause for concern",
         "translation": "值得担忧的理由"
       },
       {
         "pos": "n.",
-        "en": "aim or movement",
-        "zh": "事业；奋斗目标",
+        "en": "principle or aim people support",
+        "zh": "事业；目标；原则",
         "ex": "a worthy cause",
         "translation": "值得支持的事业"
       },
       {
         "pos": "v.",
-        "en": "make happen",
+        "en": "make something happen",
         "zh": "导致；引起；造成",
-        "ex": "cause damage",
-        "translation": "造成损害"
+        "ex": "cause problems",
+        "translation": "造成问题"
+      },
+      {
+        "pos": "conj.",
+        "en": "because (informal)",
+        "zh": "因为（非正式，也写作 'cause）",
+        "ex": "cause I've got plenty of room",
+        "translation": "因为我有足够空间"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "cause"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "regardless of",
     "ipa": "rɪˈɡɑːdləs əv",
     "meaning": [
-      "prep. phr. 不顾；不论，不管"
+      "prep. phr. 不管；不顾；不论"
     ],
     "roots": [
       {
         "word": "regard",
         "meaning": "v. 看待；n. 关注，尊重",
-        "ipa": "rɪˈɡɑːd"
+        "ipa": "rɪˈɡɑːd",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -832,22 +911,27 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "regardless",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "prep. phr.",
-        "en": "without considering",
-        "zh": "不论；不管；不顾",
-        "ex": "regardless of age",
-        "translation": "不论年龄"
+        "en": "without being affected by",
+        "zh": "不管；不顾；不论",
+        "ex": "regardless of cost",
+        "translation": "不论成本"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "regardless"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "assume",
     "ipa": "əˈsjuːm",
     "meaning": [
-      "v. 假定，认为；承担（责任、职务、控制权）；呈现（性质、外观）；装出（某种神情）"
+      "v. 假定；臆断；想当然地认为；冒充；假装；装出；承担；担任；取得；呈现"
     ],
     "roots": [],
     "confusion": "",
@@ -856,43 +940,41 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "assume",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "suppose without proof",
-        "zh": "假定；认为",
+        "en": "accept without proof",
+        "zh": "假定；臆断；想当然地认为",
         "ex": "assume that...",
         "translation": "假定……"
       },
       {
         "pos": "v.",
-        "en": "take on a role",
-        "zh": "承担；担任；取得",
+        "en": "pretend to have an identity or feeling",
+        "zh": "冒充；假装；装出",
+        "ex": "assume a false name",
+        "translation": "使用假名"
+      },
+      {
+        "pos": "v.",
+        "en": "take responsibility, control or a quality",
+        "zh": "承担；担任；取得；呈现",
         "ex": "assume responsibility",
-        "translation": "承担责任"
-      },
-      {
-        "pos": "v.",
-        "en": "take on a form",
-        "zh": "呈现（性质、形态）",
-        "ex": "assume a new form",
-        "translation": "呈现新形态"
-      },
-      {
-        "pos": "v.",
-        "en": "pretend to have",
-        "zh": "装出（表情、态度）",
-        "ex": "assume an air of confidence",
-        "translation": "装出自信的样子"
+        "translation": "承担责任；assume office 就职"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "assume"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "intervene",
     "ipa": "ˌɪntəˈviːn",
     "meaning": [
-      "v. 干预，介入；插话；（事件）在中间发生；（时间或空间）介于其间"
+      "v. 干预；介入；调停；发生于其间"
     ],
     "roots": [],
     "confusion": "",
@@ -901,37 +983,35 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "intervene",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "become involved to help or change",
-        "zh": "干预；介入",
+        "en": "become involved to improve a situation",
+        "zh": "干预；介入；调停",
         "ex": "intervene in a dispute",
         "translation": "介入争端"
       },
       {
         "pos": "v.",
-        "en": "interrupt speech",
-        "zh": "插话；打断",
-        "ex": "intervene in the conversation",
-        "translation": "插入谈话"
-      },
-      {
-        "pos": "v.",
-        "en": "happen or occur between",
-        "zh": "在期间发生；介于其间",
-        "ex": "intervening years",
-        "translation": "中间的若干年"
+        "en": "occur between events",
+        "zh": "发生于其间",
+        "ex": "two decades intervened",
+        "translation": "其间过了二十年"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "intervene"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "case",
     "ipa": "keɪs",
     "meaning": [
-      "n. 情况，情形；实例，事例；病例，患者；诉讼案件；论据，理由；盒、箱、套；（语法）格；字母大小写",
-      "v. 把……装入箱套；（非正式）踩点，事先探查"
+      "n. 情况；实例；问题；案例；病例；患者；诉讼案；案件；官司；盒；箱；套；一箱瓶装饮料；论点；论据；理由；字母大小写",
+      "v. 踩点；事先探查（俚语）"
     ],
     "roots": [],
     "confusion": "cause（n. 原因；v. 导致）",
@@ -940,85 +1020,76 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "case",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "situation or circumstance",
-        "zh": "情况；情形",
+        "en": "particular situation or example",
+        "zh": "情况；实例",
         "ex": "in this case",
         "translation": "在这种情况下"
       },
       {
         "pos": "n.",
-        "en": "instance",
-        "zh": "实例；事例",
-        "ex": "a typical case",
-        "translation": "典型案例"
+        "en": "matter handled by a professional",
+        "zh": "问题；案例；病例；患者",
+        "ex": "a hopeless case",
+        "translation": "无望治愈的患者"
       },
       {
         "pos": "n.",
-        "en": "medical instance or patient",
-        "zh": "病例；患者",
-        "ex": "a confirmed case",
-        "translation": "确诊病例"
+        "en": "legal matter before a court",
+        "zh": "诉讼案；案件；官司",
+        "ex": "a murder case",
+        "translation": "谋杀案"
       },
       {
         "pos": "n.",
-        "en": "legal matter",
-        "zh": "案件；诉讼",
-        "ex": "a court case",
-        "translation": "法庭案件"
-      },
-      {
-        "pos": "n.",
-        "en": "supporting argument",
-        "zh": "论据；理由",
-        "ex": "make a case for reform",
-        "translation": "为改革提出理由"
-      },
-      {
-        "pos": "n.",
-        "en": "container or covering",
+        "en": "container for storing things",
         "zh": "盒；箱；套",
-        "ex": "a phone case",
-        "translation": "手机壳"
+        "ex": "glass case",
+        "translation": "玻璃展示柜"
       },
       {
         "pos": "n.",
-        "en": "grammatical category",
-        "zh": "（语法）格",
-        "ex": "the nominative case",
-        "translation": "主格"
+        "en": "box of bottled drinks",
+        "zh": "一箱瓶装饮料",
+        "ex": "a case of wine",
+        "translation": "一箱葡萄酒"
       },
       {
         "pos": "n.",
-        "en": "letter form",
+        "en": "arguments supporting a position",
+        "zh": "论点；论据；理由",
+        "ex": "a case for reform",
+        "translation": "支持改革的理由"
+      },
+      {
+        "pos": "n.",
+        "en": "capital or small letter form",
         "zh": "字母大小写",
-        "ex": "upper case",
-        "translation": "大写"
+        "ex": "upper-case letters",
+        "translation": "大写字母"
       },
       {
         "pos": "v.",
-        "en": "put in a case",
-        "zh": "装入盒中；加外壳",
-        "ex": "case the instrument",
-        "translation": "给仪器加外壳"
-      },
-      {
-        "pos": "v.",
-        "en": "inspect in advance",
-        "zh": "（非正式）事先探查；踩点",
-        "ex": "case a building",
-        "translation": "事先探查建筑"
+        "en": "inspect a place before stealing",
+        "zh": "踩点；事先探查（俚语）",
+        "ex": "case the joint",
+        "translation": "事先踩点"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "case"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "as a result",
     "ipa": "əz ə rɪˈzʌlt",
     "meaning": [
-      "phr. 因此，结果；作为某事的后果"
+      "phr. 因此；所以；结果"
     ],
     "roots": [],
     "confusion": "",
@@ -1027,45 +1098,47 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "result",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "phr.",
         "en": "consequently",
-        "zh": "因此；结果",
-        "ex": "As a result, prices rose.",
-        "translation": "因此价格上涨了。"
-      },
-      {
-        "pos": "phr.",
-        "en": "because of (as a result of)",
-        "zh": "由于；作为……的结果",
-        "ex": "as a result of illness",
-        "translation": "由于生病"
+        "zh": "因此；所以；结果",
+        "ex": "as a result of something",
+        "translation": "由于某事（带 of 的相关搭配）"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "result",
+      "consequently"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "disproportionately",
     "ipa": "ˌdɪsprəˈpɔːʃənətli",
     "meaning": [
-      "adv. 不成比例地；相对而言过多或过少地"
+      "adv. 不成比例地；不相称地"
     ],
     "roots": [
       {
         "word": "disproportionate",
         "meaning": "adj. 不成比例的",
-        "ipa": "ˌdɪsprəˈpɔːʃənət"
+        "ipa": "ˌdɪsprəˈpɔːʃənət",
+        "checked": false
       },
       {
         "word": "proportionate",
         "meaning": "adj. 成比例的；相称的",
-        "ipa": "prəˈpɔːʃənət"
+        "ipa": "prəˈpɔːʃənət",
+        "checked": false
       },
       {
         "word": "proportion",
         "ipa": "prəˈpɔːʃən",
-        "meaning": "n. 比例；部分；v. 使成比例"
+        "meaning": "n. 比例；部分；v. 使成比例",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1074,22 +1147,27 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "disproportionately",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adv.",
-        "en": "out of proportion",
-        "zh": "不成比例地；相对而言过多或过少地",
-        "ex": "disproportionately affected",
-        "translation": "受到不成比例的影响"
+        "en": "too much or too little in relation to something",
+        "zh": "不成比例地；不相称地",
+        "ex": "disproportionately expensive",
+        "translation": "价格过高"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "disproportionately"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "deal with",
     "ipa": "diːl wɪð",
     "meaning": [
-      "phr. v. 处理，应付；与……打交道；涉及，论述"
+      "phr. v. 与……打交道；应付某人；处理；解决；涉及；论述"
     ],
     "roots": [],
     "confusion": "",
@@ -1098,37 +1176,42 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "deal-with",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "phr. v.",
-        "en": "handle a problem",
-        "zh": "处理；应付",
-        "ex": "deal with stress",
-        "translation": "应对压力"
+        "en": "interact with someone",
+        "zh": "与……打交道；应付某人",
+        "ex": "deal with difficult customers",
+        "translation": "应付难缠的顾客"
       },
       {
         "pos": "phr. v.",
-        "en": "interact with people",
-        "zh": "与……打交道",
-        "ex": "deal with customers",
-        "translation": "与顾客打交道"
+        "en": "take action on a problem",
+        "zh": "处理；解决",
+        "ex": "deal with the problem",
+        "translation": "处理问题"
       },
       {
         "pos": "phr. v.",
-        "en": "be about",
+        "en": "be about a subject",
         "zh": "涉及；论述",
-        "ex": "a book dealing with history",
-        "translation": "一本论述历史的书"
+        "ex": "deal with the same subject",
+        "translation": "论述同一主题"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "deal-with"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "serve",
     "ipa": "sɜːv",
     "meaning": [
-      "v. 服务，接待；提供（食物、饮料等）；任职，服役；服刑；适合某用途，起作用；为（地区、人群）提供服务；发球；送达法律文书",
-      "n. （体育）发球"
+      "v. 供应；端上食物或饮料；服务；任职；服役；有助于实现；起作用；为……提供所需之物；接待；招待顾客；度过一段时间；服刑；发球；正式送达法律文书",
+      "n. 发球"
     ],
     "roots": [],
     "confusion": "",
@@ -1137,72 +1220,84 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "serve",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
         "en": "provide food or drink",
-        "zh": "端上；供应（食物、饮料）",
-        "ex": "serve dinner",
-        "translation": "供应晚餐"
+        "zh": "供应；端上食物或饮料",
+        "ex": "serve meals",
+        "translation": "供应饭菜"
       },
       {
         "pos": "v.",
-        "en": "help or provide services",
-        "zh": "服务；接待；为……提供服务",
-        "ex": "serve the community",
-        "translation": "服务社区"
+        "en": "work for or perform duty",
+        "zh": "服务；任职；服役",
+        "ex": "serve in the army",
+        "translation": "服兵役"
       },
       {
         "pos": "v.",
-        "en": "hold a position",
-        "zh": "任职；服役",
-        "ex": "serve as president",
-        "translation": "担任总统"
+        "en": "help achieve a purpose",
+        "zh": "有助于实现；起作用",
+        "ex": "serve as a warning",
+        "translation": "起警示作用"
       },
       {
         "pos": "v.",
-        "en": "spend a sentence",
-        "zh": "服刑",
-        "ex": "serve a prison sentence",
+        "en": "supply what is needed",
+        "zh": "为……提供所需之物",
+        "ex": "serve the needs",
+        "translation": "满足需求"
+      },
+      {
+        "pos": "v.",
+        "en": "attend to customers",
+        "zh": "接待；招待顾客",
+        "ex": "Are you being served?",
+        "translation": "有人招待您吗？"
+      },
+      {
+        "pos": "v.",
+        "en": "spend time doing something",
+        "zh": "度过一段时间；服刑",
+        "ex": "serve time",
         "translation": "服刑"
       },
       {
         "pos": "v.",
-        "en": "fulfil a function",
-        "zh": "适合某用途；起作用",
-        "ex": "serve a purpose",
-        "translation": "起到作用"
-      },
-      {
-        "pos": "v.",
-        "en": "start play in sport",
+        "en": "start play with the ball",
         "zh": "发球",
-        "ex": "serve the ball",
-        "translation": "发球"
+        "ex": "turn to serve",
+        "translation": "轮到发球"
       },
       {
         "pos": "v.",
         "en": "deliver a legal document",
-        "zh": "送达法律文书",
-        "ex": "serve a notice",
-        "translation": "送达通知"
+        "zh": "正式送达法律文书",
+        "ex": "serve a writ",
+        "translation": "送达传票"
       },
       {
         "pos": "n.",
-        "en": "act of serving in sport",
-        "zh": "（体育）发球",
-        "ex": "a powerful serve",
-        "translation": "有力的发球"
+        "en": "act of starting play",
+        "zh": "发球",
+        "ex": "your serve",
+        "translation": "轮到你发球"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "serve"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "channel",
     "ipa": "ˈtʃænəl",
     "meaning": [
-      "n. 频道；渠道，途径；水道，海峡；沟槽；（电信）信道",
-      "v. 引导，输送；将资金或精力投入某处"
+      "n. 电视台；电视频道；水道；管道；航道；沟通途径；办事渠道；提供产品或信息的渠道；海关检查通道",
+      "v. 引导；导入；投入；模仿某人的举止"
     ],
     "roots": [],
     "confusion": "",
@@ -1211,51 +1306,70 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "channel",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
         "en": "broadcast station or service",
-        "zh": "频道",
+        "zh": "电视台；电视频道",
         "ex": "news channel",
         "translation": "新闻频道"
       },
       {
         "pos": "n.",
-        "en": "means or route",
-        "zh": "渠道；途径",
-        "ex": "communication channel",
-        "translation": "沟通渠道"
+        "en": "passage for water or ships",
+        "zh": "水道；管道；航道",
+        "ex": "irrigation channels",
+        "translation": "灌溉渠"
       },
       {
         "pos": "n.",
-        "en": "water passage",
-        "zh": "水道；海峡；航道",
-        "ex": "shipping channel",
-        "translation": "航道"
+        "en": "means of communicating or acting",
+        "zh": "沟通途径；办事渠道",
+        "ex": "official channels",
+        "translation": "官方渠道"
       },
       {
         "pos": "n.",
-        "en": "groove or signal path",
-        "zh": "沟槽；信道",
-        "ex": "digital channel",
-        "translation": "数字信道"
+        "en": "means of distributing something",
+        "zh": "提供产品或信息的渠道",
+        "ex": "distribution channels",
+        "translation": "分销渠道"
+      },
+      {
+        "pos": "n.",
+        "en": "route through customs",
+        "zh": "海关检查通道",
+        "ex": "green channel",
+        "translation": "绿色通道"
       },
       {
         "pos": "v.",
-        "en": "direct or convey",
-        "zh": "引导；输送；投入（资源、精力等）",
-        "ex": "channel resources into education",
-        "translation": "将资源投入教育"
+        "en": "direct into a place or activity",
+        "zh": "引导；导入；投入",
+        "ex": "channel energy into something useful",
+        "translation": "将精力投入有用的事情"
+      },
+      {
+        "pos": "v.",
+        "en": "act like someone else",
+        "zh": "模仿某人的举止",
+        "ex": "channel the Beatles",
+        "translation": "模仿披头士乐队"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "channel"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "resource",
-    "ipa": "rɪˈzɔːs",
+    "ipa": "rɪˈzɔːs / ˈriːsɔːs",
     "meaning": [
-      "n. 资源（自然资源、资金、人力等）；可供利用的资料或手段；应对困难的能力",
-      "v. 为……提供资金、人力或设备"
+      "n. 资源；财力；可利用的资料或素质；机敏；足智多谋",
+      "v. 资助；提供资源或设备"
     ],
     "roots": [],
     "confusion": "",
@@ -1264,49 +1378,48 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "resource",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "available supply or asset",
-        "zh": "资源；储备",
-        "ex": "natural resources",
-        "translation": "自然资源"
+        "en": "valuable asset or quality",
+        "zh": "资源；财力；可利用的资料或素质",
+        "ex": "mineral resources",
+        "translation": "矿产资源"
       },
       {
         "pos": "n.",
-        "en": "useful material or means",
-        "zh": "可用资料；手段",
-        "ex": "learning resources",
-        "translation": "学习资源"
-      },
-      {
-        "pos": "n.",
-        "en": "ability to cope",
-        "zh": "应变能力；可利用的办法",
+        "en": "resourcefulness (formal)",
+        "zh": "机敏；足智多谋",
         "ex": "inner resources",
-        "translation": "内在力量"
+        "translation": "内在能力"
       },
       {
         "pos": "v.",
-        "en": "supply with resources",
-        "zh": "为……提供资金、人力或设备",
-        "ex": "a well-resourced school",
-        "translation": "资源充足的学校"
+        "en": "supply money or equipment",
+        "zh": "资助；提供资源或设备",
+        "ex": "properly resourced",
+        "translation": "资源配置充足"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "resource"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "promptly",
     "ipa": "ˈprɒmptli",
     "meaning": [
-      "adv. 迅速地，立即；准时地，不拖延地"
+      "adv. 迅速地；立即；准时地"
     ],
     "roots": [
       {
         "word": "prompt",
         "meaning": "adj. 迅速的；v. 促使；n. 提示",
-        "ipa": "prɒmpt"
+        "ipa": "prɒmpt",
+        "checked": false
       }
     ],
     "confusion": "",
@@ -1315,35 +1428,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "promptly",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adv.",
-        "en": "without delay",
-        "zh": "迅速地；立即",
-        "ex": "respond promptly",
-        "translation": "迅速回应"
-      },
-      {
-        "pos": "adv.",
-        "en": "at the agreed time",
-        "zh": "准时地",
-        "ex": "arrive promptly at nine",
-        "translation": "九点准时到达"
+        "en": "quickly or at the agreed time",
+        "zh": "迅速地；立即；准时地",
+        "ex": "arrive promptly",
+        "translation": "及时到达"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "promptly"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "deplorable",
     "ipa": "dɪˈplɔːrəbəl",
     "meaning": [
-      "adj. 极其糟糕的；令人痛惜的；应受谴责的"
+      "adj. 非常糟糕的；极其恶劣的（正式）"
     ],
     "roots": [
       {
         "word": "deplore",
         "meaning": "v. 强烈反对；痛惜",
-        "ipa": "dɪˈplɔː"
+        "ipa": "dɪˈplɔː",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1352,30 +1464,28 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "deplorable",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adj.",
-        "en": "shockingly bad",
-        "zh": "极其糟糕的；令人痛惜的",
+        "en": "extremely bad",
+        "zh": "非常糟糕的；极其恶劣的（正式）",
         "ex": "deplorable conditions",
         "translation": "恶劣的条件"
-      },
-      {
-        "pos": "adj.",
-        "en": "deserving condemnation",
-        "zh": "应受谴责的",
-        "ex": "deplorable behaviour",
-        "translation": "应受谴责的行为"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "deplorable"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "attribute",
     "ipa": "v. əˈtrɪbjuːt · n. ˈætrɪbjuːt",
     "meaning": [
-      "v. 把……归因于；认为……是某人所创造或所说的",
-      "n. 属性，特质，特征"
+      "n. 特质；特性；属性",
+      "v. 把某种特质归属于某人；归因于；认为由某人所创作"
     ],
     "roots": [],
     "confusion": "",
@@ -1384,37 +1494,43 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "attribute",
-    "checked": false,
+    "checked": true,
     "senses": [
-      {
-        "pos": "v.",
-        "en": "assign a cause",
-        "zh": "把……归因于",
-        "ex": "attribute success to effort",
-        "translation": "把成功归功于努力"
-      },
-      {
-        "pos": "v.",
-        "en": "assign authorship or origin",
-        "zh": "认为……出自某人；归属于",
-        "ex": "attribute a quote to an author",
-        "translation": "认为引语出自某位作者"
-      },
       {
         "pos": "n.",
         "en": "quality or characteristic",
-        "zh": "属性；特质；特征",
-        "ex": "personal attributes",
-        "translation": "个人特质"
+        "zh": "特质；特性；属性",
+        "ex": "essential attribute",
+        "translation": "必备素质"
+      },
+      {
+        "pos": "v.",
+        "en": "assign a characteristic to someone",
+        "zh": "把某种特质归属于某人",
+        "ex": "attribute hostile intent to others",
+        "translation": "认为别人怀有敌意"
+      },
+      {
+        "pos": "v.",
+        "en": "assign a cause or origin",
+        "zh": "归因于；认为由某人所创作",
+        "ex": "attribute this delay to something",
+        "translation": "把延误归因于某事"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "attribute",
+      "attribute-to"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "effect",
     "ipa": "ɪˈfekt",
     "meaning": [
-      "n. 影响，作用；结果，效果；（戏剧、电影等）特效；（复数）个人财物",
-      "v. 使发生，促成，实现"
+      "n. 效果；影响；结果；特效（复数）；个人财物（复数）",
+      "v. 使发生；实现；完成（正式）"
     ],
     "roots": [],
     "confusion": "",
@@ -1423,50 +1539,49 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "effect",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "influence",
-        "zh": "影响；作用",
-        "ex": "have an effect on health",
-        "translation": "对健康产生影响"
+        "en": "result of an influence",
+        "zh": "效果；影响；结果",
+        "ex": "have an effect on",
+        "translation": "对……有影响"
       },
       {
         "pos": "n.",
-        "en": "result",
-        "zh": "结果；效果",
-        "ex": "side effects",
-        "translation": "副作用"
-      },
-      {
-        "pos": "n.",
-        "en": "artificial impression",
-        "zh": "（影视等）特效",
+        "en": "artificial stage or film impression",
+        "zh": "特效（复数）",
         "ex": "special effects",
         "translation": "特效"
       },
       {
         "pos": "n.",
-        "en": "personal belongings",
+        "en": "personal possessions",
         "zh": "个人财物（复数）",
         "ex": "personal effects",
-        "translation": "随身物品"
+        "translation": "个人财物"
       },
       {
         "pos": "v.",
-        "en": "bring about",
-        "zh": "使发生；促成；实现",
+        "en": "bring about or accomplish",
+        "zh": "使发生；实现；完成（正式）",
         "ex": "effect a change",
-        "translation": "实现改变"
+        "translation": "促成改变"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "effect"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "lead to",
     "ipa": "liːd tuː",
     "meaning": [
-      "phr. v. 导致，引起；通向，通往"
+      "phr. v. 导致；引起",
+      "v. phr. 通向；通往（lead 的方向义）"
     ],
     "roots": [],
     "confusion": "",
@@ -1474,41 +1589,49 @@ window.VOCAB = [
     "sources": [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
-    "dict": "lead",
-    "checked": false,
+    "dict": "lead-to",
+    "checked": true,
     "senses": [
       {
         "pos": "phr. v.",
-        "en": "result in",
+        "en": "cause something to happen",
         "zh": "导致；引起",
-        "ex": "lead to failure",
-        "translation": "导致失败"
+        "ex": "lead to obesity",
+        "translation": "导致肥胖"
       },
       {
-        "pos": "phr. v.",
-        "en": "provide a route to",
-        "zh": "通往；通向",
-        "ex": "a road leading to the town",
-        "translation": "通往城镇的道路"
+        "pos": "v. phr.",
+        "en": "go in a particular direction",
+        "zh": "通向；通往（lead 的方向义）",
+        "ex": "lead to the garden",
+        "translation": "通向花园"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "lead-to",
+      "lead"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "comparatively",
     "ipa": "kəmˈpærətɪvli",
     "meaning": [
-      "adv. 相对地，比较而言；与其他事物相比"
+      "adv. 相对地；比较而言"
     ],
     "roots": [
       {
         "word": "comparative",
         "meaning": "adj. 比较的；相对的",
-        "ipa": "kəmˈpærətɪv"
+        "ipa": "kəmˈpærətɪv",
+        "checked": false
       },
       {
         "word": "compare",
         "meaning": "v. 比较；比作",
-        "ipa": "kəmˈpeə"
+        "ipa": "kəmˈpeə",
+        "checked": false
       }
     ],
     "confusion": "",
@@ -1517,29 +1640,35 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "comparatively",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adv.",
-        "en": "in comparison",
+        "en": "relative to something else",
         "zh": "相对地；比较而言",
-        "ex": "comparatively easy",
-        "translation": "相对容易"
+        "ex": "comparatively speaking",
+        "translation": "比较而言"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "comparatively"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "concerning",
     "ipa": "kənˈsɜːnɪŋ",
     "meaning": [
-      "prep. 关于，涉及",
-      "adj. 令人担忧的"
+      "prep. 关于；涉及（正式）",
+      "adj. 令人担忧的（词典标注非标准用法）"
     ],
     "roots": [
       {
         "word": "concern",
-        "meaning": "v. 涉及；使担忧；n. 关切，担忧",
-        "ipa": "kənˈsɜːn"
+        "meaning": "v. 使担忧；涉及　n. 担忧；关切；企业",
+        "ipa": "kənˈsɜːn",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1548,29 +1677,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "concerning",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "prep.",
         "en": "about",
-        "zh": "关于；涉及",
-        "ex": "questions concerning safety",
-        "translation": "关于安全的问题"
+        "zh": "关于；涉及（正式）",
+        "ex": "legislation concerning guns",
+        "translation": "有关枪支的法律"
       },
       {
         "pos": "adj.",
         "en": "causing worry",
-        "zh": "令人担忧的",
-        "ex": "a concerning trend",
-        "translation": "令人担忧的趋势"
+        "zh": "令人担忧的（词典标注非标准用法）",
+        "ex": "very concerning",
+        "translation": "十分令人担忧"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "concerning"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "due to",
     "ipa": "djuː tuː",
     "meaning": [
-      "prep. phr. 由于，因为"
+      "prep. phr. 由于；因为"
     ],
     "roots": [],
     "confusion": "",
@@ -1579,22 +1713,27 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "due-to",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "prep. phr.",
         "en": "because of",
         "zh": "由于；因为",
-        "ex": "delay due to bad weather",
-        "translation": "因恶劣天气延误"
+        "ex": "due to heavy snow",
+        "translation": "由于大雪"
       }
-    ]
+    ],
+    "ipaNote": "短语音标按组成词及常见读法合成",
+    "dictionarySources": [
+      "due-to"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "confront",
     "ipa": "kənˈfrʌnt",
     "meaning": [
-      "v. 面对，直面（困难）；与某人对质；使某人面临不愉快的事实或问题"
+      "v. 面对；面临；遭遇；正视"
     ],
     "roots": [],
     "confusion": "",
@@ -1603,42 +1742,34 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "confront",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "face directly",
-        "zh": "面对；直面（困难）",
-        "ex": "confront a challenge",
-        "translation": "直面挑战"
-      },
-      {
-        "pos": "v.",
-        "en": "challenge someone directly",
-        "zh": "与某人对质",
-        "ex": "confront sb about a lie",
-        "translation": "就谎言与某人对质"
-      },
-      {
-        "pos": "v.",
-        "en": "present someone with a problem",
-        "zh": "使某人面临问题或事实",
-        "ex": "be confronted with difficulties",
-        "translation": "面临困难"
+        "en": "face a difficult situation or person",
+        "zh": "面对；面临；遭遇；正视",
+        "ex": "be confronted with problems",
+        "translation": "面临问题"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "confront"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "formulate",
     "ipa": "ˈfɔːmjəleɪt",
     "meaning": [
-      "v. 制定，拟定（计划、政策等）；有条理地表达（思想）；配制（产品、药物等）"
+      "v. 制定；规划；构想"
     ],
     "roots": [
       {
         "word": "formula",
         "ipa": "ˈfɔːmjələ",
-        "meaning": "n. 公式；配方；固定方法"
+        "meaning": "n. 惯例；配方；公式；方程式",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1647,37 +1778,28 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "formulate",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "develop systematically",
-        "zh": "制定；拟定（计划、政策）",
-        "ex": "formulate a policy",
-        "translation": "制定政策"
-      },
-      {
-        "pos": "v.",
-        "en": "express precisely",
-        "zh": "有条理地表达；阐述",
-        "ex": "formulate an argument",
-        "translation": "阐述论点"
-      },
-      {
-        "pos": "v.",
-        "en": "prepare a formulation",
-        "zh": "配制（产品、药物等）",
-        "ex": "formulate a new drug",
-        "translation": "配制新药"
+        "en": "develop a detailed plan",
+        "zh": "制定；规划；构想",
+        "ex": "formulate legislation",
+        "translation": "制定法律"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "formulate"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "boost",
     "ipa": "buːst",
     "meaning": [
-      "v. 提高，增加；促进，推动；增强（信心等）",
-      "n. 提高，增长；推动，激励"
+      "v. 改善；提高；增强；推动",
+      "n. 改善；提高；推动力"
     ],
     "roots": [],
     "confusion": "",
@@ -1686,42 +1808,41 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "boost",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
         "en": "increase or improve",
-        "zh": "提高；增加；增强",
-        "ex": "boost confidence",
-        "translation": "增强信心"
-      },
-      {
-        "pos": "v.",
-        "en": "promote or stimulate",
-        "zh": "促进；推动",
-        "ex": "boost economic growth",
-        "translation": "促进经济增长"
+        "zh": "改善；提高；增强；推动",
+        "ex": "boost sales",
+        "translation": "提高销量"
       },
       {
         "pos": "n.",
-        "en": "increase or encouragement",
-        "zh": "增长；推动；激励",
-        "ex": "give morale a boost",
-        "translation": "鼓舞士气"
+        "en": "an improvement or increase",
+        "zh": "改善；提高；推动力",
+        "ex": "a boost to my confidence",
+        "translation": "自信心的提升"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "boost"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "regarding",
     "ipa": "rɪˈɡɑːdɪŋ",
     "meaning": [
-      "prep. 关于，至于，就……而言"
+      "prep. 关于；至于（正式）"
     ],
     "roots": [
       {
         "word": "regard",
         "meaning": "v. 看待；n. 关注，尊重",
-        "ipa": "rɪˈɡɑːd"
+        "ipa": "rɪˈɡɑːd",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1730,28 +1851,35 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "regarding",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "prep.",
-        "en": "concerning",
-        "zh": "关于；至于；就……而言",
-        "ex": "information regarding fees",
-        "translation": "关于费用的信息"
+        "en": "about",
+        "zh": "关于；至于（正式）",
+        "ex": "regarding the matter",
+        "translation": "关于此事"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "regarding"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "identify",
     "ipa": "aɪˈdentɪfaɪ",
     "meaning": [
-      "v. 识别，辨认；确认身份；发现，确定；（identify with）认同，产生共鸣；（identify A with B）把两者联系起来"
+      "v. 认出；识别；确认身份；确定；发现",
+      "phr. v. 认同；与……产生共鸣（identify with）；认为……与……密切相关（identify A with B）"
     ],
     "roots": [
       {
         "word": "identity",
         "ipa": "aɪˈdentəti",
-        "meaning": "n. 身份；特征；同一性（同源词）"
+        "meaning": "n. 身份；特征；同一性（同源词）",
+        "checked": false
       }
     ],
     "confusion": "",
@@ -1760,49 +1888,57 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "identify",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "v.",
-        "en": "recognize",
-        "zh": "识别；辨认；确认身份",
-        "ex": "identify the suspect",
-        "translation": "辨认嫌疑人"
+        "en": "recognize and establish identity",
+        "zh": "认出；识别；确认身份",
+        "ex": "identify oneself",
+        "translation": "表明身份"
       },
       {
         "pos": "v.",
-        "en": "discover or establish",
-        "zh": "发现；确定",
-        "ex": "identify the cause",
-        "translation": "找出原因"
+        "en": "recognize a fact or need",
+        "zh": "确定；发现",
+        "ex": "identify training needs",
+        "translation": "确定培训需求"
       },
       {
-        "pos": "v.",
-        "en": "feel connected with",
-        "zh": "认同；产生共鸣（identify with）",
-        "ex": "identify with a character",
-        "translation": "对某个角色产生共鸣"
+        "pos": "phr. v.",
+        "en": "feel similar to and understand",
+        "zh": "认同；与……产生共鸣（identify with）",
+        "ex": "identify with someone",
+        "translation": "认同某人"
       },
       {
-        "pos": "v.",
-        "en": "associate with",
-        "zh": "将……与……联系起来（identify A with B）",
-        "ex": "identify success with wealth",
-        "translation": "将成功等同于财富"
+        "pos": "phr. v.",
+        "en": "associate closely with",
+        "zh": "认为……与……密切相关（identify A with B）",
+        "ex": "identify with violent behaviour",
+        "translation": "与暴力行为相联系"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "identify",
+      "identify-with"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "underlying",
     "ipa": "ˌʌndəˈlaɪɪŋ",
     "meaning": [
-      "adj. 潜在的，深层的；根本的，构成基础的；位于下方的"
+      "adj. 潜在的；深层的；暗含的；作为基础的；标的的；位于表面下方的",
+      "v. 是……的深层原因；对……有重大影响（underlie 的现在分词）"
     ],
     "roots": [
       {
         "word": "underlie",
-        "meaning": "v. 构成……的基础；是……的深层原因",
-        "ipa": "ˌʌndəˈlaɪ"
+        "meaning": "v. 是……的深层原因；对……有重大影响",
+        "ipa": "ˌʌndəˈlaɪ",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1811,38 +1947,51 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "underlying",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adj.",
-        "en": "fundamental or hidden",
-        "zh": "根本的；深层的；潜在的",
+        "en": "real but not obvious",
+        "zh": "潜在的；深层的；暗含的",
         "ex": "underlying causes",
         "translation": "深层原因"
       },
       {
         "pos": "adj.",
-        "en": "lying beneath",
-        "zh": "位于下方的",
-        "ex": "underlying rock",
+        "en": "forming a basis",
+        "zh": "作为基础的；标的的",
+        "ex": "underlying assets",
+        "translation": "标的资产"
+      },
+      {
+        "pos": "adj.",
+        "en": "below a surface",
+        "zh": "位于表面下方的",
+        "ex": "underlying rocks",
         "translation": "下层岩石"
       },
       {
         "pos": "v.",
-        "en": "form the basis of",
-        "zh": "构成……的基础（underlie 的现在分词）",
-        "ex": "assumptions underlying a theory",
-        "translation": "某理论所依据的假设"
+        "en": "be a hidden cause or influence",
+        "zh": "是……的深层原因；对……有重大影响（underlie 的现在分词）",
+        "ex": "underlying psychological problems",
+        "translation": "潜在的心理问题"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "underlying",
+      "underlie"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "direct",
-    "ipa": "dəˈrekt / daɪˈrekt",
+    "ipa": "daɪˈrekt / dɪˈrekt",
     "meaning": [
-      "adj. 直接的；直达的；直率的；亲自的",
-      "v. 指引，指示方向；指导，管理；把……引向；指挥，导演；命令，指示",
-      "adv. 直接地，直达地"
+      "adj. 直通的；直达的；直接的；完全的；直率的；坦率的",
+      "adv. 直达地；直接地",
+      "v. 管理；领导；指挥；朝着；指向；给某人指路；正式命令；指示"
     ],
     "roots": [],
     "confusion": "",
@@ -1851,78 +2000,91 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "direct",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "adj.",
-        "en": "without an intermediary",
-        "zh": "直接的；亲自的",
-        "ex": "direct contact",
-        "translation": "直接接触"
+        "en": "going straight without stopping",
+        "zh": "直通的；直达的",
+        "ex": "direct route",
+        "translation": "直通路线"
       },
       {
         "pos": "adj.",
-        "en": "without a detour",
-        "zh": "直达的",
-        "ex": "direct flight",
-        "translation": "直达航班"
+        "en": "without intermediaries",
+        "zh": "直接的",
+        "ex": "direct experience",
+        "translation": "直接经验"
       },
       {
         "pos": "adj.",
-        "en": "frank",
-        "zh": "直率的",
-        "ex": "a direct answer",
-        "translation": "直截了当的回答"
+        "en": "complete",
+        "zh": "完全的",
+        "ex": "direct opposite",
+        "translation": "截然相反"
       },
       {
-        "pos": "v.",
-        "en": "guide toward a place",
-        "zh": "指引方向；把……引向",
-        "ex": "direct resources to schools",
-        "translation": "将资源引向学校"
-      },
-      {
-        "pos": "v.",
-        "en": "manage or control",
-        "zh": "指导；管理；指挥",
-        "ex": "direct a project",
-        "translation": "管理项目"
-      },
-      {
-        "pos": "v.",
-        "en": "make a film or play",
-        "zh": "导演",
-        "ex": "direct a film",
-        "translation": "执导电影"
-      },
-      {
-        "pos": "v.",
-        "en": "instruct or order",
-        "zh": "命令；指示",
-        "ex": "direct sb to leave",
-        "translation": "命令某人离开"
+        "pos": "adj.",
+        "en": "honest and frank",
+        "zh": "直率的；坦率的",
+        "ex": "direct manner",
+        "translation": "坦率的态度"
       },
       {
         "pos": "adv.",
-        "en": "straight to a destination",
-        "zh": "直接地；直达地",
-        "ex": "fly direct to London",
-        "translation": "直飞伦敦"
+        "en": "without stopping or intermediaries",
+        "zh": "直达地；直接地",
+        "ex": "go direct to the airport",
+        "translation": "直达机场"
+      },
+      {
+        "pos": "v.",
+        "en": "be in charge of",
+        "zh": "管理；领导；指挥",
+        "ex": "direct the traffic",
+        "translation": "指挥交通"
+      },
+      {
+        "pos": "v.",
+        "en": "aim toward someone or something",
+        "zh": "朝着；指向",
+        "ex": "directed at children",
+        "translation": "针对儿童"
+      },
+      {
+        "pos": "v.",
+        "en": "tell someone how to get somewhere",
+        "zh": "给某人指路",
+        "ex": "direct me to the airport",
+        "translation": "给我指去机场的路"
+      },
+      {
+        "pos": "v.",
+        "en": "give an official order",
+        "zh": "正式命令；指示",
+        "ex": "direct someone to do something",
+        "translation": "命令某人做某事"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "direct"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   },
   {
     "word": "frame",
     "ipa": "freɪm",
     "meaning": [
-      "n. 框架，边框；骨架，支架；体格；（电影、视频）画面帧；（眼镜）镜框",
-      "v. 装框；制定，构思；以某种方式表达；诬陷"
+      "n. 框；边框；镜框；构架；骨架；支架；台球摆球三角框；体格；骨架；画格；画面；帧",
+      "v. 谨慎措词；表达；陷害；诬陷；装框；镶框；修饰边缘；衬托"
     ],
     "roots": [
       {
         "word": "reframe",
-        "meaning": "v. 以新方式表述或看待；重新装框",
-        "ipa": "ˌriːˈfreɪm"
+        "meaning": "v. 换一种方式表达或考虑；重新装框",
+        "ipa": "ˌriːˈfreɪm",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1931,57 +2093,76 @@ window.VOCAB = [
       "2025年6月第1套 · 仔细阅读 Passage One"
     ],
     "dict": "frame",
-    "checked": false,
+    "checked": true,
     "senses": [
       {
         "pos": "n.",
-        "en": "border or supporting structure",
-        "zh": "边框；框架；骨架；支架",
+        "en": "border around something",
+        "zh": "框；边框；镜框",
         "ex": "picture frame",
-        "translation": "相框"
+        "translation": "画框"
       },
       {
         "pos": "n.",
-        "en": "body build",
-        "zh": "体格；身形",
-        "ex": "a slender frame",
-        "translation": "苗条的身形"
+        "en": "supporting structure",
+        "zh": "构架；骨架；支架",
+        "ex": "bicycle frame",
+        "translation": "自行车车架"
       },
       {
         "pos": "n.",
-        "en": "single image",
-        "zh": "（电影或视频）一帧画面",
-        "ex": "video frame",
-        "translation": "视频帧"
+        "en": "triangle for arranging billiard balls",
+        "zh": "台球摆球三角框",
+        "ex": "a snooker frame",
+        "translation": "斯诺克摆球框（学习示例）"
       },
       {
         "pos": "n.",
-        "en": "eyeglass structure",
-        "zh": "眼镜框（常用复数）",
-        "ex": "metal frames",
-        "translation": "金属镜框"
+        "en": "size and shape of body",
+        "zh": "体格；骨架",
+        "ex": "a bigger frame",
+        "translation": "较大的骨架"
+      },
+      {
+        "pos": "n.",
+        "en": "single picture in film",
+        "zh": "画格；画面；帧",
+        "ex": "a film frame",
+        "translation": "电影画面（学习示例）"
       },
       {
         "pos": "v.",
-        "en": "put in a frame",
-        "zh": "给……装框",
-        "ex": "frame a photo",
-        "translation": "给照片装框"
+        "en": "express carefully",
+        "zh": "谨慎措词；表达",
+        "ex": "questions framed precisely",
+        "translation": "措词准确的问题"
       },
       {
         "pos": "v.",
-        "en": "formulate or express",
-        "zh": "构思；制定；以某种方式表述",
-        "ex": "frame a question",
-        "translation": "构拟问题"
+        "en": "falsely make someone seem guilty",
+        "zh": "陷害；诬陷",
+        "ex": "framed by the police",
+        "translation": "被警方陷害"
       },
       {
         "pos": "v.",
-        "en": "falsely incriminate",
-        "zh": "诬陷；栽赃",
-        "ex": "be framed for a crime",
-        "translation": "被诬陷犯罪"
+        "en": "put a border around a picture",
+        "zh": "装框；镶框",
+        "ex": "get that photo framed",
+        "translation": "把照片装框"
+      },
+      {
+        "pos": "v.",
+        "en": "form an attractive edge",
+        "zh": "修饰边缘；衬托",
+        "ex": "frame her face",
+        "translation": "衬托她的脸"
       }
-    ]
+    ],
+    "ipaNote": "",
+    "dictionarySources": [
+      "frame"
+    ],
+    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。"
   }
 ];
