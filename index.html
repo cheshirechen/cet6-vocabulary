@@ -5,11 +5,11 @@
 
 .tools #order{min-width:132px}.sense-group{margin:12px 0 16px}.sense-group .pos{font-size:17px;display:block;margin-bottom:5px}.sense{display:block;margin:8px 0 12px;line-height:1.55}.sense-en{color:#64736d;font-size:14px}.sense-zh{font-size:16px;font-weight:500}.sense-no{font-size:14px;color:#64736d;margin-right:6px}.example{font-size:14px;margin:4px 0 0 23px;border-left:2px solid #dce6dd;padding-left:9px;color:#3c554a}.example-zh{color:#65736d}.related{margin:5px 0 9px}.main-ipa{margin-bottom:6px}.version{font-variant-numeric:tabular-nums}#cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,335px),1fr))}
 .reference{border-bottom:1px solid #d6ded8;margin:0 0 12px;padding:8px 0}.reference strong{font-size:14px;color:#375b4d}.reference .sense{margin:4px 0 8px}#cards.word-list{grid-template-columns:repeat(auto-fill,minmax(min(100%,180px),1fr));gap:0 18px;align-items:start;background:#fff;border:1px solid #d6ded8;border-radius:12px;padding:8px 18px}#cards.word-list .word-only{padding:11px 3px;border-bottom:1px solid #e9eee9;font:600 20px/1.35 Georgia,serif;overflow-wrap:anywhere;color:#203a30}#hide:disabled{opacity:.48;cursor:default}@media(max-width:600px){#cards.word-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px;padding:6px 12px}#cards.word-list .word-only{font-size:18px}}
-</style></head><body><main><header><small>CET-6 / PERSONAL VOCABULARY</small><h1>我的六级单词本</h1><p>仅收录已确认的黄色高亮词汇。</p><small>中文释义参考金山词霸；双语学习补充由 AI 归纳；查询入口为剑桥英汉词典。 <span class="version">版本 4.5</span></small></header><div class="tools"><input id="q" type="search" placeholder="搜索英文、中文、易混词" aria-label="搜索"><select id="source" aria-label="真题出处"><option value="">全部真题</option></select><select id="order" aria-label="词条排列顺序"><option value="added">加入顺序（默认）</option><option value="az">A–Z</option><option value="za">Z–A</option></select><button id="conf" aria-pressed="false">仅易混词</button><button id="hide" aria-pressed="false">隐藏释义</button><button id="wordlist" aria-pressed="false">单词列表</button></div><p id="count" aria-live="polite"></p><div id="cards"></div><p id="status" class="status" role="status"></p><footer class="muted">后续按真题追加；同词合并出处，不重复建卡。</footer></main>
+</style></head><body><main><header><small>CET-6 / PERSONAL VOCABULARY</small><h1>我的六级单词本</h1><p>仅收录已确认的黄色高亮词汇。</p><small>中文释义参考金山词霸；双语学习补充由 AI 归纳；查询入口为剑桥英汉词典。 <span class="version">版本 4.6</span></small></header><div class="tools"><input id="q" type="search" placeholder="搜索英文、中文、易混词" aria-label="搜索"><select id="source" aria-label="真题出处"><option value="">全部真题</option></select><select id="order" aria-label="词条排列顺序"><option value="added">加入顺序（默认）</option><option value="az">A–Z</option><option value="za">Z–A</option></select><button id="conf" aria-pressed="false">仅易混词</button><button id="hide" aria-pressed="false">隐藏释义</button><button id="wordlist" aria-pressed="false">单词列表</button></div><p id="count" aria-live="polite"></p><div id="cards"></div><p id="status" class="status" role="status"></p><footer class="muted">后续按真题追加；同词合并出处，不重复建卡。</footer></main>
 <!-- Deployment snapshot of vocabulary.js. When updating vocabulary.js, regenerate this embedded snapshot together with it. Embedding avoids independently cached HTML/data schema mismatches. -->
 <script>
-/* V4.3: 保留金山词霸中文释义；双语学习补充采用 AI 归纳；查询链接使用剑桥英汉词典。 */
-window.VOCAB_VERSION='4.3';
+/* V4.6: 新增长篇阅读词汇；已查阅的金山词霸释义与 AI 归纳分区展示。 */
+window.VOCAB_VERSION='4.6';
 window.VOCAB = [
   {
     "word": "official",
@@ -2813,6 +2813,3488 @@ window.VOCAB = [
     "referenceChecked": true,
     "referenceSource": "金山词霸",
     "referenceSourceUrl": "https://www.iciba.com/word?w=frame"
+  },
+  {
+    "word": "library",
+    "ipa": "ˈlaɪbrəri",
+    "meaning": [
+      "n. 图书馆；藏书室",
+      "n. 藏书；资料库；程序库"
+    ],
+    "roots": [
+      {
+        "word": "librarian",
+        "ipa": "laɪˈbreəriən",
+        "meaning": "n. 图书管理员（本篇高亮）",
+        "checked": false
+      }
+    ],
+    "confusion": "literature n. 文学；文献 / liberty n. 自由；特权",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "library",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "place for borrowing books",
+        "zh": "图书馆；藏书室",
+        "ex": "public library",
+        "translation": "公共图书馆"
+      },
+      {
+        "pos": "n.",
+        "en": "collection of resources",
+        "zh": "藏书；资料库；程序库",
+        "ex": "software library",
+        "translation": "软件库"
+      }
+    ],
+    "ipaNote": "",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/library",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "图书馆，藏书楼；藏书；书屋，书斋；图书出租处"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=library"
+  },
+  {
+    "word": "patron",
+    "ipa": "ˈpeɪtrən",
+    "meaning": [
+      "n. 顾客；常客；使用者",
+      "n. 赞助人；资助者"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "patron",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "regular customer or user",
+        "zh": "顾客；常客；使用者",
+        "ex": "library patrons",
+        "translation": "图书馆读者"
+      },
+      {
+        "pos": "n.",
+        "en": "person who supports an institution",
+        "zh": "赞助人；资助者",
+        "ex": "patron of the arts",
+        "translation": "艺术赞助人"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/patron",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "appreciate",
+    "ipa": "əˈpriːʃieɪt",
+    "meaning": [
+      "v. 欣赏；重视",
+      "v. 感激",
+      "v. 理解；领会",
+      "v. 增值"
+    ],
+    "roots": [
+      {
+        "word": "appreciation",
+        "ipa": "əˌpriːʃiˈeɪʃn",
+        "meaning": "n. 欣赏；感激；理解；增值（派生词）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "appreciate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "recognize the value of",
+        "zh": "欣赏；重视",
+        "ex": "appreciate the importance",
+        "translation": "认识到重要性"
+      },
+      {
+        "pos": "v.",
+        "en": "be grateful for",
+        "zh": "感激",
+        "ex": "appreciate your help",
+        "translation": "感谢你的帮助"
+      },
+      {
+        "pos": "v.",
+        "en": "understand fully",
+        "zh": "理解；领会",
+        "ex": "appreciate the difficulty",
+        "translation": "理解困难"
+      },
+      {
+        "pos": "v.",
+        "en": "increase in value",
+        "zh": "增值",
+        "ex": "property appreciates",
+        "translation": "房产增值"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/appreciate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "at times",
+    "ipa": "ət taɪmz",
+    "meaning": [
+      "phr. 有时；偶尔"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "at times",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr.",
+        "en": "sometimes",
+        "zh": "有时；偶尔",
+        "ex": "difficult at times",
+        "translation": "有时很困难"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/at-times",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "shrink",
+    "ipa": "ʃrɪŋk",
+    "meaning": [
+      "v. 缩小；减少；缩水",
+      "v. 退缩；畏缩"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "过去式 shrank /ʃræŋk/；过去分词 shrunk /ʃrʌŋk/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "shrink",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "become smaller",
+        "zh": "缩小；减少；缩水",
+        "ex": "shrinking budgets",
+        "translation": "不断缩减的预算"
+      },
+      {
+        "pos": "v.",
+        "en": "move back in fear",
+        "zh": "退缩；畏缩",
+        "ex": "shrink from responsibility",
+        "translation": "逃避责任"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/shrink",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "municipal",
+    "ipa": "mjuːˈnɪsɪpl",
+    "meaning": [
+      "adj. 市政的；地方政府的"
+    ],
+    "roots": [
+      {
+        "word": "municipality",
+        "ipa": "mjuːˌnɪsɪˈpæləti",
+        "meaning": "n. 市政当局；自治市（派生关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "municipal",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "relating to a city government",
+        "zh": "市政的；地方政府的",
+        "ex": "municipal services",
+        "translation": "市政服务"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/municipal",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "combine",
+    "ipa": "kəmˈbaɪn",
+    "meaning": [
+      "v. 结合；合并",
+      "v. 兼具",
+      "n. 联合企业；联合收割机"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "名词 /ˈkɒmbaɪn/；动词 /kəmˈbaɪn/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "combine",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "join or mix together",
+        "zh": "结合；合并",
+        "ex": "combine theory with practice",
+        "translation": "理论与实践相结合"
+      },
+      {
+        "pos": "v.",
+        "en": "have two qualities together",
+        "zh": "兼具",
+        "ex": "combine beauty and function",
+        "translation": "兼具美观与功能"
+      },
+      {
+        "pos": "n.",
+        "en": "group of companies or harvesting machine",
+        "zh": "联合企业；联合收割机",
+        "ex": "combine harvester",
+        "translation": "联合收割机"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/combine",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "engage",
+    "ipa": "ɪnˈɡeɪdʒ",
+    "meaning": [
+      "v. 参与；从事",
+      "v. 吸引；使投入",
+      "v. 聘用",
+      "v. 接合；啮合"
+    ],
+    "roots": [
+      {
+        "word": "be engaged in",
+        "ipa": "bi ɪnˈɡeɪdʒd ɪn",
+        "meaning": "phr. 从事；参与（本篇高亮）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "engage",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "take part in",
+        "zh": "参与；从事",
+        "ex": "engage in research",
+        "translation": "从事研究"
+      },
+      {
+        "pos": "v.",
+        "en": "attract and hold attention",
+        "zh": "吸引；使投入",
+        "ex": "engage readers",
+        "translation": "吸引读者"
+      },
+      {
+        "pos": "v.",
+        "en": "employ or hire",
+        "zh": "聘用",
+        "ex": "engage a lawyer",
+        "translation": "聘请律师"
+      },
+      {
+        "pos": "v.",
+        "en": "make contact or mesh",
+        "zh": "接合；啮合",
+        "ex": "engage the gears",
+        "translation": "使齿轮啮合"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/engage",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "civil",
+    "ipa": "ˈsɪvl",
+    "meaning": [
+      "adj. 公民的；民用的",
+      "adj. 文明有礼的",
+      "adj. 民事的"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "civil",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "relating to ordinary citizens",
+        "zh": "公民的；民用的",
+        "ex": "civil rights",
+        "translation": "公民权利"
+      },
+      {
+        "pos": "adj.",
+        "en": "polite and respectful",
+        "zh": "文明有礼的",
+        "ex": "civil discourse",
+        "translation": "文明对话"
+      },
+      {
+        "pos": "adj.",
+        "en": "relating to noncriminal law",
+        "zh": "民事的",
+        "ex": "civil law",
+        "translation": "民法"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/civil",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "discourse",
+    "ipa": "ˈdɪskɔːs",
+    "meaning": [
+      "n. 论述；话语；讨论",
+      "v. 详谈；论述"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "动词 /dɪsˈkɔːs/；名词 /ˈdɪskɔːs/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "discourse",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "serious discussion or communication",
+        "zh": "论述；话语；讨论",
+        "ex": "public discourse",
+        "translation": "公共讨论"
+      },
+      {
+        "pos": "v.",
+        "en": "speak at length",
+        "zh": "详谈；论述",
+        "ex": "discourse on history",
+        "translation": "详谈历史"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/discourse",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "precisely",
+    "ipa": "prɪˈsaɪsli",
+    "meaning": [
+      "adv. 精确地；准确地",
+      "adv. 正是；恰恰"
+    ],
+    "roots": [
+      {
+        "word": "precise",
+        "ipa": "prɪˈsaɪs",
+        "meaning": "adj. 精确的；确切的",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "precisely",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adv.",
+        "en": "exactly",
+        "zh": "精确地；准确地",
+        "ex": "precisely measured",
+        "translation": "精确测量"
+      },
+      {
+        "pos": "adv.",
+        "en": "exactly as emphasized",
+        "zh": "正是；恰恰",
+        "ex": "precisely the point",
+        "translation": "恰恰是关键"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/precisely",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "assault",
+    "ipa": "əˈsɔːlt",
+    "meaning": [
+      "n. 袭击；攻击；冲击",
+      "v. 袭击；攻击"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "assault",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "violent attack or strong impact",
+        "zh": "袭击；攻击；冲击",
+        "ex": "an assault on freedom",
+        "translation": "对自由的攻击"
+      },
+      {
+        "pos": "v.",
+        "en": "attack physically",
+        "zh": "袭击；攻击",
+        "ex": "assault a person",
+        "translation": "袭击某人"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/assault",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "mediate",
+    "ipa": "ˈmiːdieɪt",
+    "meaning": [
+      "v. 调解；斡旋",
+      "v. 介导；通过媒介传递"
+    ],
+    "roots": [
+      {
+        "word": "medium",
+        "ipa": "ˈmiːdiəm",
+        "meaning": "n. 媒介；介质；adj. 中等的（词源关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "mediate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "help settle a dispute",
+        "zh": "调解；斡旋",
+        "ex": "mediate a dispute",
+        "translation": "调解争端"
+      },
+      {
+        "pos": "v.",
+        "en": "act as an intermediary",
+        "zh": "介导；通过媒介传递",
+        "ex": "technology-mediated communication",
+        "translation": "技术介导的交流"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/mediate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "bank",
+    "ipa": "bæŋk",
+    "meaning": [
+      "n. 银行",
+      "n. 河岸；堤岸",
+      "n. 一排；一组；储备库",
+      "v. 存款；依靠"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "bank",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "financial institution",
+        "zh": "银行",
+        "ex": "open a bank account",
+        "translation": "开立银行账户"
+      },
+      {
+        "pos": "n.",
+        "en": "land beside a river",
+        "zh": "河岸；堤岸",
+        "ex": "river bank",
+        "translation": "河岸"
+      },
+      {
+        "pos": "n.",
+        "en": "row or collection of things",
+        "zh": "一排；一组；储备库",
+        "ex": "banks of computers",
+        "translation": "成排的电脑"
+      },
+      {
+        "pos": "v.",
+        "en": "deposit money or rely on",
+        "zh": "存款；依靠",
+        "ex": "bank on support",
+        "translation": "指望获得支持"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/bank",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "specific",
+    "ipa": "spəˈsɪfɪk",
+    "meaning": [
+      "adj. 特定的；具体的",
+      "adj. 明确的；详尽的",
+      "n. 具体细节"
+    ],
+    "roots": [
+      {
+        "word": "specify",
+        "ipa": "ˈspesɪfaɪ",
+        "meaning": "v. 明确说明；指定（词族关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "specific",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "particular or definite",
+        "zh": "特定的；具体的",
+        "ex": "specific ways",
+        "translation": "具体方式"
+      },
+      {
+        "pos": "adj.",
+        "en": "clearly defined",
+        "zh": "明确的；详尽的",
+        "ex": "specific instructions",
+        "translation": "明确的指示"
+      },
+      {
+        "pos": "n.",
+        "en": "particular detail",
+        "zh": "具体细节",
+        "ex": "the specifics of the plan",
+        "translation": "计划细节"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/specific",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "champion",
+    "ipa": "ˈtʃæmpiən",
+    "meaning": [
+      "n. 冠军",
+      "n. 拥护者；捍卫者",
+      "v. 支持；倡导"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "champion",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "winner of a competition",
+        "zh": "冠军",
+        "ex": "world champion",
+        "translation": "世界冠军"
+      },
+      {
+        "pos": "n.",
+        "en": "person who supports a cause",
+        "zh": "拥护者；捍卫者",
+        "ex": "champion of youth",
+        "translation": "青少年的支持者"
+      },
+      {
+        "pos": "v.",
+        "en": "actively support",
+        "zh": "支持；倡导",
+        "ex": "champion cultural activities",
+        "translation": "倡导文化活动"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/champion",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "capacity",
+    "ipa": "kəˈpæsəti",
+    "meaning": [
+      "n. 容量；容纳能力",
+      "n. 能力",
+      "n. 身份；职能"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "capacity",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "maximum amount held",
+        "zh": "容量；容纳能力",
+        "ex": "storage capacity",
+        "translation": "存储容量"
+      },
+      {
+        "pos": "n.",
+        "en": "ability to do something",
+        "zh": "能力",
+        "ex": "capacity to learn",
+        "translation": "学习能力"
+      },
+      {
+        "pos": "n.",
+        "en": "role or position",
+        "zh": "身份；职能",
+        "ex": "in an official capacity",
+        "translation": "以官方身份"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/capacity",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "incredible",
+    "ipa": "ɪnˈkredəbl",
+    "meaning": [
+      "adj. 难以置信的",
+      "adj. 惊人的；了不起的"
+    ],
+    "roots": [
+      {
+        "word": "credible",
+        "ipa": "ˈkredəbl",
+        "meaning": "adj. 可信的；可靠的",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "incredible",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "hard to believe",
+        "zh": "难以置信的",
+        "ex": "an incredible story",
+        "translation": "难以置信的故事"
+      },
+      {
+        "pos": "adj.",
+        "en": "extremely good or impressive",
+        "zh": "惊人的；了不起的",
+        "ex": "incredible work",
+        "translation": "了不起的工作"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/incredible",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "institution",
+    "ipa": "ˌɪnstɪˈtjuːʃn",
+    "meaning": [
+      "n. 机构；团体",
+      "n. 制度；习俗"
+    ],
+    "roots": [
+      {
+        "word": "institute",
+        "ipa": "ˈɪnstɪtjuːt",
+        "meaning": "n. 机构；v. 建立；实行（词族关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "institution",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "established organization",
+        "zh": "机构；团体",
+        "ex": "educational institution",
+        "translation": "教育机构"
+      },
+      {
+        "pos": "n.",
+        "en": "established social practice",
+        "zh": "制度；习俗",
+        "ex": "social institution",
+        "translation": "社会制度"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/institution",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "multiple",
+    "ipa": "ˈmʌltɪpl",
+    "meaning": [
+      "adj. 多个的；多重的",
+      "n. 倍数"
+    ],
+    "roots": [
+      {
+        "word": "multiply",
+        "ipa": "ˈmʌltɪplaɪ",
+        "meaning": "v. 乘；增加；繁殖（词族关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "multiple",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "many or more than one",
+        "zh": "多个的；多重的",
+        "ex": "multiple branches",
+        "translation": "多个分馆"
+      },
+      {
+        "pos": "n.",
+        "en": "number obtained by multiplication",
+        "zh": "倍数",
+        "ex": "a multiple of five",
+        "translation": "五的倍数"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/multiple",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "branch",
+    "ipa": "brɑːntʃ",
+    "meaning": [
+      "n. 树枝",
+      "n. 分支；分部；分馆",
+      "v. 分叉；分支"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "branch",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "part growing from a tree",
+        "zh": "树枝",
+        "ex": "tree branch",
+        "translation": "树枝"
+      },
+      {
+        "pos": "n.",
+        "en": "local division or subdivision",
+        "zh": "分支；分部；分馆",
+        "ex": "library branch",
+        "translation": "图书馆分馆"
+      },
+      {
+        "pos": "v.",
+        "en": "divide into separate parts",
+        "zh": "分叉；分支",
+        "ex": "branch out",
+        "translation": "拓展领域"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/branch",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "claim",
+    "ipa": "kleɪm",
+    "meaning": [
+      "v. 声称；断言",
+      "v. 索取；要求",
+      "v. 夺去生命",
+      "n. 说法；主张；索赔"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "claim",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "state something as true",
+        "zh": "声称；断言",
+        "ex": "claim that it works",
+        "translation": "声称它有效"
+      },
+      {
+        "pos": "v.",
+        "en": "demand as a right",
+        "zh": "索取；要求",
+        "ex": "claim compensation",
+        "translation": "索赔"
+      },
+      {
+        "pos": "v.",
+        "en": "cause loss of life",
+        "zh": "夺去生命",
+        "ex": "claim many lives",
+        "translation": "夺去许多生命"
+      },
+      {
+        "pos": "n.",
+        "en": "assertion or demand",
+        "zh": "说法；主张；索赔",
+        "ex": "make a claim",
+        "translation": "提出主张"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/claim",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "neighborhood",
+    "ipa": "ˈneɪbəhʊd",
+    "meaning": [
+      "n. 街区；社区；邻近地区"
+    ],
+    "roots": [
+      {
+        "word": "neighbor",
+        "ipa": "ˈneɪbə",
+        "meaning": "n. 邻居；邻近者（英式 neighbour）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "英式拼写 neighbourhood",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "neighborhood",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "area around a home",
+        "zh": "街区；社区；邻近地区",
+        "ex": "local neighborhood",
+        "translation": "当地社区"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/neighborhood",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "life",
+    "ipa": "laɪf",
+    "meaning": [
+      "n. 生命；生存",
+      "n. 生活；人生",
+      "n. 寿命；使用期限"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "复数 lives /laɪvz/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "life",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "state of being alive",
+        "zh": "生命；生存",
+        "ex": "save a life",
+        "translation": "挽救生命"
+      },
+      {
+        "pos": "n.",
+        "en": "way or experience of living",
+        "zh": "生活；人生",
+        "ex": "cultural life",
+        "translation": "文化生活"
+      },
+      {
+        "pos": "n.",
+        "en": "period of use or existence",
+        "zh": "寿命；使用期限",
+        "ex": "battery life",
+        "translation": "电池寿命"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/life",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "attractive",
+    "ipa": "əˈtræktɪv",
+    "meaning": [
+      "adj. 有吸引力的；迷人的",
+      "adj. 诱人的；有利的"
+    ],
+    "roots": [
+      {
+        "word": "attract",
+        "ipa": "əˈtrækt",
+        "meaning": "v. 吸引；引起",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "attractive",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "pleasing or appealing",
+        "zh": "有吸引力的；迷人的",
+        "ex": "attractive places",
+        "translation": "有吸引力的场所"
+      },
+      {
+        "pos": "adj.",
+        "en": "offering an advantage",
+        "zh": "诱人的；有利的",
+        "ex": "attractive salary",
+        "translation": "诱人的薪资"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/attractive",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "functional",
+    "ipa": "ˈfʌŋkʃənl",
+    "meaning": [
+      "adj. 实用的；功能性的",
+      "adj. 正常运作的"
+    ],
+    "roots": [
+      {
+        "word": "function",
+        "ipa": "ˈfʌŋkʃn",
+        "meaning": "n. 功能；作用；v. 运转",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "functional",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "practical and useful",
+        "zh": "实用的；功能性的",
+        "ex": "functional design",
+        "translation": "实用设计"
+      },
+      {
+        "pos": "adj.",
+        "en": "working correctly",
+        "zh": "正常运作的",
+        "ex": "fully functional",
+        "translation": "功能完全正常"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/functional",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "square",
+    "ipa": "skweə",
+    "meaning": [
+      "n. 正方形",
+      "n. 广场",
+      "adj. 正方形的",
+      "v. 求平方"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "square",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "shape with four equal sides",
+        "zh": "正方形",
+        "ex": "draw a square",
+        "translation": "画一个正方形"
+      },
+      {
+        "pos": "n.",
+        "en": "open public area",
+        "zh": "广场",
+        "ex": "town square",
+        "translation": "城镇广场"
+      },
+      {
+        "pos": "adj.",
+        "en": "having a square shape",
+        "zh": "正方形的",
+        "ex": "square table",
+        "translation": "方桌"
+      },
+      {
+        "pos": "v.",
+        "en": "multiply a number by itself",
+        "zh": "求平方",
+        "ex": "square the number",
+        "translation": "对数字求平方"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/square",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "depressed",
+    "ipa": "dɪˈprest",
+    "meaning": [
+      "adj. 沮丧的；抑郁的",
+      "adj. 经济萧条的",
+      "adj. 降低的；低于周围的"
+    ],
+    "roots": [
+      {
+        "word": "depress",
+        "ipa": "dɪˈpres",
+        "meaning": "v. 使沮丧；压低；使萧条",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "depressed",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "very unhappy",
+        "zh": "沮丧的；抑郁的",
+        "ex": "feel depressed",
+        "translation": "感到沮丧"
+      },
+      {
+        "pos": "adj.",
+        "en": "economically weakened",
+        "zh": "经济萧条的",
+        "ex": "depressed neighborhoods",
+        "translation": "经济萧条的社区"
+      },
+      {
+        "pos": "adj.",
+        "en": "lowered in level",
+        "zh": "降低的；低于周围的",
+        "ex": "depressed prices",
+        "translation": "低迷的价格"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/depressed",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "department",
+    "ipa": "dɪˈpɑːtmənt",
+    "meaning": [
+      "n. 部门；系；科",
+      "n. 商店的营业部"
+    ],
+    "roots": [
+      {
+        "word": "depart",
+        "ipa": "dɪˈpɑːt",
+        "meaning": "v. 离开；出发（历史词源关联，非直接现代派生）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "department",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "division of an organization",
+        "zh": "部门；系；科",
+        "ex": "department of engineering",
+        "translation": "工程系"
+      },
+      {
+        "pos": "n.",
+        "en": "section of a large shop",
+        "zh": "商店的营业部",
+        "ex": "department store",
+        "translation": "百货商店"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/department",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "mall",
+    "ipa": "mɔːl",
+    "meaning": [
+      "n. 购物中心"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "mall",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "large shopping centre",
+        "zh": "购物中心",
+        "ex": "shopping mall",
+        "translation": "大型购物中心"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/mall",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "transform",
+    "ipa": "trænsˈfɔːm",
+    "meaning": [
+      "v. 改变；改造；转变",
+      "v. 变换；转换"
+    ],
+    "roots": [
+      {
+        "word": "form",
+        "ipa": "fɔːm",
+        "meaning": "n. 形式；形状；v. 形成（构词关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "transform",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "change greatly in form or nature",
+        "zh": "改变；改造；转变",
+        "ex": "transform A into B",
+        "translation": "将A转变为B"
+      },
+      {
+        "pos": "v.",
+        "en": "change mathematically or electrically",
+        "zh": "变换；转换",
+        "ex": "transform a signal",
+        "translation": "变换信号"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/transform",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "vibrant",
+    "ipa": "ˈvaɪbrənt",
+    "meaning": [
+      "adj. 充满活力的",
+      "adj. 鲜艳的"
+    ],
+    "roots": [
+      {
+        "word": "vibrate",
+        "ipa": "vaɪˈbreɪt",
+        "meaning": "v. 振动；震动（词族关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "vibrant",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "full of life and energy",
+        "zh": "充满活力的",
+        "ex": "vibrant neighborhoods",
+        "translation": "充满活力的社区"
+      },
+      {
+        "pos": "adj.",
+        "en": "bright and striking",
+        "zh": "鲜艳的",
+        "ex": "vibrant colours",
+        "translation": "鲜艳的色彩"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/vibrant",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "agency",
+    "ipa": "ˈeɪdʒənsi",
+    "meaning": [
+      "n. 机构；代理处",
+      "n. 自主行动能力；能动性"
+    ],
+    "roots": [
+      {
+        "word": "agent",
+        "ipa": "ˈeɪdʒənt",
+        "meaning": "n. 代理人；经纪人；作用者（词族关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "agency",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "organization providing a service",
+        "zh": "机构；代理处",
+        "ex": "municipal agencies",
+        "translation": "市政机构"
+      },
+      {
+        "pos": "n.",
+        "en": "ability to act independently",
+        "zh": "自主行动能力；能动性",
+        "ex": "personal agency",
+        "translation": "个人能动性"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/agency",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "focal",
+    "ipa": "ˈfəʊkl",
+    "meaning": [
+      "adj. 焦点的；核心的",
+      "adj. 焦点的；聚焦的"
+    ],
+    "roots": [
+      {
+        "word": "focus",
+        "ipa": "ˈfəʊkəs",
+        "meaning": "n. 焦点；v. 聚焦（构词关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "focal",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "central or most important",
+        "zh": "焦点的；核心的",
+        "ex": "focal point",
+        "translation": "焦点；中心"
+      },
+      {
+        "pos": "adj.",
+        "en": "relating to an optical focus",
+        "zh": "焦点的；聚焦的",
+        "ex": "focal length",
+        "translation": "焦距"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/focal",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "livable",
+    "ipa": "ˈlɪvəbl",
+    "meaning": [
+      "adj. 宜居的；适于居住的"
+    ],
+    "roots": [
+      {
+        "word": "live",
+        "ipa": "lɪv",
+        "meaning": "v. 居住；生活",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "livable",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "suitable for living in",
+        "zh": "宜居的；适于居住的",
+        "ex": "livable cities",
+        "translation": "宜居城市"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/livable",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "urban",
+    "ipa": "ˈɜːbən",
+    "meaning": [
+      "adj. 城市的；都市的"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "urban",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "relating to towns or cities",
+        "zh": "城市的；都市的",
+        "ex": "urban development",
+        "translation": "城市发展"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/urban",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "council",
+    "ipa": "ˈkaʊnsl",
+    "meaning": [
+      "n. 委员会；理事会",
+      "n. 地方议会；地方政府"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "council",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "group making decisions",
+        "zh": "委员会；理事会",
+        "ex": "library council",
+        "translation": "图书馆理事会"
+      },
+      {
+        "pos": "n.",
+        "en": "local governing body",
+        "zh": "地方议会；地方政府",
+        "ex": "city council",
+        "translation": "市议会"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/council",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "release",
+    "ipa": "rɪˈliːs",
+    "meaning": [
+      "v. 释放；解放",
+      "v. 发布；发行",
+      "v. 排放；放出",
+      "n. 释放；发行；发布物"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "release",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "set free",
+        "zh": "释放；解放",
+        "ex": "release a prisoner",
+        "translation": "释放囚犯"
+      },
+      {
+        "pos": "v.",
+        "en": "make available to the public",
+        "zh": "发布；发行",
+        "ex": "release a report",
+        "translation": "发布报告"
+      },
+      {
+        "pos": "v.",
+        "en": "let something escape",
+        "zh": "排放；放出",
+        "ex": "release energy",
+        "translation": "释放能量"
+      },
+      {
+        "pos": "n.",
+        "en": "act of releasing or published item",
+        "zh": "释放；发行；发布物",
+        "ex": "press release",
+        "translation": "新闻稿"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/release",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "sustainability",
+    "ipa": "səˌsteɪnəˈbɪləti",
+    "meaning": [
+      "n. 可持续性；持续发展能力"
+    ],
+    "roots": [
+      {
+        "word": "sustain",
+        "ipa": "səˈsteɪn",
+        "meaning": "v. 维持；支撑；承受",
+        "checked": false
+      },
+      {
+        "word": "sustainable",
+        "ipa": "səˈsteɪnəbl",
+        "meaning": "adj. 可持续的",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "sustainability",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "ability to continue without depletion",
+        "zh": "可持续性；持续发展能力",
+        "ex": "environmental sustainability",
+        "translation": "环境可持续性"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/sustainability",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "construction",
+    "ipa": "kənˈstrʌkʃn",
+    "meaning": [
+      "n. 建设；施工",
+      "n. 构造；结构"
+    ],
+    "roots": [
+      {
+        "word": "construct",
+        "ipa": "kənˈstrʌkt",
+        "meaning": "v. 建造；构建",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "construction",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "process of building",
+        "zh": "建设；施工",
+        "ex": "construction project",
+        "translation": "建设项目"
+      },
+      {
+        "pos": "n.",
+        "en": "way something is formed",
+        "zh": "构造；结构",
+        "ex": "sentence construction",
+        "translation": "句子结构"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/construction",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "craftsman",
+    "ipa": "ˈkrɑːftsmən",
+    "meaning": [
+      "n. 工匠；手艺人"
+    ],
+    "roots": [
+      {
+        "word": "craft",
+        "ipa": "krɑːft",
+        "meaning": "n. 工艺；手艺；v. 精心制作",
+        "checked": false
+      },
+      {
+        "word": "man",
+        "ipa": "mæn",
+        "meaning": "n. 成年男子；人（复合词成分）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "复数 craftsmen /ˈkrɑːftsmən/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "craftsman",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "skilled maker of things",
+        "zh": "工匠；手艺人",
+        "ex": "local craftsmen",
+        "translation": "当地工匠"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/craftsman",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "reliance",
+    "ipa": "rɪˈlaɪəns",
+    "meaning": [
+      "n. 依赖；依靠",
+      "n. 信赖"
+    ],
+    "roots": [
+      {
+        "word": "rely",
+        "ipa": "rɪˈlaɪ",
+        "meaning": "v. 依赖；信赖",
+        "checked": false
+      },
+      {
+        "word": "self-reliance",
+        "ipa": "ˌself rɪˈlaɪəns",
+        "meaning": "n. 自力更生；自立（原文搭配）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "reliance",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "dependence on someone or something",
+        "zh": "依赖；依靠",
+        "ex": "reliance on technology",
+        "translation": "对技术的依赖"
+      },
+      {
+        "pos": "n.",
+        "en": "trust in something",
+        "zh": "信赖",
+        "ex": "place reliance on evidence",
+        "translation": "信赖证据"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/reliance",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "preserve",
+    "ipa": "prɪˈzɜːv",
+    "meaning": [
+      "v. 保护；保存；维护",
+      "v. 保鲜；腌制",
+      "n. 保护区；蜜饯；果酱"
+    ],
+    "roots": [
+      {
+        "word": "preservation",
+        "ipa": "ˌprezəˈveɪʃn",
+        "meaning": "n. 保存；保护；维护（本篇高亮）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "preserve",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "keep safe or in good condition",
+        "zh": "保护；保存；维护",
+        "ex": "preserve historical records",
+        "translation": "保存历史记录"
+      },
+      {
+        "pos": "v.",
+        "en": "keep food from spoiling",
+        "zh": "保鲜；腌制",
+        "ex": "preserve fruit",
+        "translation": "保存水果"
+      },
+      {
+        "pos": "n.",
+        "en": "protected area or preserved food",
+        "zh": "保护区；蜜饯；果酱",
+        "ex": "nature preserve",
+        "translation": "自然保护区"
+      }
+    ],
+    "ipaNote": "",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/preserve",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "保持；保护；保险；腌制"
+      },
+      {
+        "pos": "n.",
+        "zh": "蜜饯；果酱；腌菜；专属工作；保护区；私人渔猎场"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=preserve"
+  },
+  {
+    "word": "artifact",
+    "ipa": "ˈɑːtɪfækt",
+    "meaning": [
+      "n. 人工制品；文物",
+      "n. 伪影；人为造成的假象"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "英式拼写 artefact",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "artifact",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "object made by humans",
+        "zh": "人工制品；文物",
+        "ex": "historical artifacts",
+        "translation": "历史文物"
+      },
+      {
+        "pos": "n.",
+        "en": "unwanted result of a process",
+        "zh": "伪影；人为造成的假象",
+        "ex": "image artifact",
+        "translation": "图像伪影"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/artifact",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "archive",
+    "ipa": "ˈɑːkaɪv",
+    "meaning": [
+      "n. 档案；档案馆",
+      "v. 存档；归档",
+      "adj. 档案的"
+    ],
+    "roots": [
+      {
+        "word": "archivist",
+        "ipa": "ˈɑːkɪvɪst",
+        "meaning": "n. 档案管理员（本篇高亮）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "archive",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "collection or place of historical records",
+        "zh": "档案；档案馆",
+        "ex": "historical archive",
+        "translation": "历史档案馆"
+      },
+      {
+        "pos": "v.",
+        "en": "store records for future use",
+        "zh": "存档；归档",
+        "ex": "archive documents",
+        "translation": "将文件归档"
+      },
+      {
+        "pos": "adj.",
+        "en": "relating to archives",
+        "zh": "档案的",
+        "ex": "archive material",
+        "translation": "档案资料"
+      }
+    ],
+    "ipaNote": "",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/archive",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "档案（馆）；史料；记录"
+      },
+      {
+        "pos": "v.",
+        "zh": "把…存档"
+      },
+      {
+        "pos": "adj.",
+        "zh": "档案的"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=archive"
+  },
+  {
+    "word": "ancestor",
+    "ipa": "ˈænsestə",
+    "meaning": [
+      "n. 祖先；先人",
+      "n. 原型；前身"
+    ],
+    "roots": [
+      {
+        "word": "ancestry",
+        "ipa": "ˈænsestri",
+        "meaning": "n. 血统；世系；祖先（本篇高亮）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "ancestor",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "person from whom one descends",
+        "zh": "祖先；先人",
+        "ex": "trace one's ancestors",
+        "translation": "追溯祖先"
+      },
+      {
+        "pos": "n.",
+        "en": "earlier form of something",
+        "zh": "原型；前身",
+        "ex": "ancestor of modern computers",
+        "translation": "现代计算机的前身"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/ancestor",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "immigration",
+    "ipa": "ˌɪmɪˈɡreɪʃn",
+    "meaning": [
+      "n. 移民；移居入境",
+      "n. 入境检查"
+    ],
+    "roots": [
+      {
+        "word": "migrate",
+        "ipa": "maɪˈɡreɪt",
+        "meaning": "v. 迁移；迁徙",
+        "checked": false
+      },
+      {
+        "word": "immigrate",
+        "ipa": "ˈɪmɪɡreɪt",
+        "meaning": "v. 移居入境",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "immigration",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "movement into another country to live",
+        "zh": "移民；移居入境",
+        "ex": "immigration history",
+        "translation": "移民史"
+      },
+      {
+        "pos": "n.",
+        "en": "border control for arrivals",
+        "zh": "入境检查",
+        "ex": "go through immigration",
+        "translation": "通过入境检查"
+      }
+    ],
+    "ipaNote": "",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/immigration",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "移居；移民局检查站"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=immigration"
+  },
+  {
+    "word": "coordinate",
+    "ipa": "kəʊˈɔːdɪneɪt",
+    "meaning": [
+      "v. 协调；统筹",
+      "v. 搭配；配合",
+      "n. 坐标",
+      "adj. 同等的；并列的"
+    ],
+    "roots": [],
+    "confusion": "cooperation n. 合作；协作（coordinate 为动词，侧重协调统筹）",
+    "forms": "名词／形容词 /kəʊˈɔːdɪnət/；动词 /kəʊˈɔːdɪneɪt/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "coordinate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "organize activities to work together",
+        "zh": "协调；统筹",
+        "ex": "coordinate restoration efforts",
+        "translation": "协调修复工作"
+      },
+      {
+        "pos": "v.",
+        "en": "match or harmonize",
+        "zh": "搭配；配合",
+        "ex": "coordinate colours",
+        "translation": "搭配颜色"
+      },
+      {
+        "pos": "n.",
+        "en": "number specifying position",
+        "zh": "坐标",
+        "ex": "Cartesian coordinates",
+        "translation": "笛卡尔坐标"
+      },
+      {
+        "pos": "adj.",
+        "en": "equal in rank or grammatical status",
+        "zh": "同等的；并列的",
+        "ex": "coordinate clauses",
+        "translation": "并列分句"
+      }
+    ],
+    "ipaNote": "",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/coordinate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "v.",
+        "zh": "（使）协调；搭配"
+      },
+      {
+        "pos": "adj.",
+        "zh": "〈语法〉同等的，并列的；坐标的"
+      },
+      {
+        "pos": "n.",
+        "zh": "套装；坐标"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=coordinate"
+  },
+  {
+    "word": "restoration",
+    "ipa": "ˌrestəˈreɪʃn",
+    "meaning": [
+      "n. 恢复；复原；修复",
+      "n. 归还；复原"
+    ],
+    "roots": [
+      {
+        "word": "restore",
+        "ipa": "rɪˈstɔː",
+        "meaning": "v. 恢复；修复；归还",
+        "checked": false,
+        "etymology": "https://www.etymonline.com/word/restoration"
+      },
+      {
+        "word": "store",
+        "ipa": "stɔː",
+        "meaning": "n. 商店；储备；v. 储存（与 restore 共享历史词根，非现代直接派生）",
+        "checked": false,
+        "etymology": "https://www.etymonline.com/word/store"
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "restoration",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "return to a former condition",
+        "zh": "恢复；复原；修复",
+        "ex": "restoration of paintings",
+        "translation": "绘画修复"
+      },
+      {
+        "pos": "n.",
+        "en": "return of something taken away",
+        "zh": "归还；复原",
+        "ex": "restoration of property",
+        "translation": "财产归还"
+      }
+    ],
+    "ipaNote": "",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/restoration",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": true,
+    "referenceGlosses": [
+      {
+        "pos": "n.",
+        "zh": "（规章制度等的）恢复；复原；（遗失等物的）归还原主；整修"
+      }
+    ],
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=restoration"
+  },
+  {
+    "word": "oral",
+    "ipa": "ˈɔːrəl",
+    "meaning": [
+      "adj. 口头的；口述的",
+      "adj. 口腔的；口服的",
+      "n. 口试"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "oral",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "spoken rather than written",
+        "zh": "口头的；口述的",
+        "ex": "oral history",
+        "translation": "口述历史"
+      },
+      {
+        "pos": "adj.",
+        "en": "relating to the mouth",
+        "zh": "口腔的；口服的",
+        "ex": "oral medicine",
+        "translation": "口服药物"
+      },
+      {
+        "pos": "n.",
+        "en": "spoken examination",
+        "zh": "口试",
+        "ex": "take an oral",
+        "translation": "参加口试"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/oral",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "veteran",
+    "ipa": "ˈvetərən",
+    "meaning": [
+      "n. 退伍军人；老兵",
+      "n. 资深人士；老手",
+      "adj. 经验丰富的"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "veteran",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "former member of armed forces",
+        "zh": "退伍军人；老兵",
+        "ex": "war veterans",
+        "translation": "战争老兵"
+      },
+      {
+        "pos": "n.",
+        "en": "experienced person",
+        "zh": "资深人士；老手",
+        "ex": "industry veteran",
+        "translation": "行业资深人士"
+      },
+      {
+        "pos": "adj.",
+        "en": "highly experienced",
+        "zh": "经验丰富的",
+        "ex": "veteran journalist",
+        "translation": "资深记者"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/veteran",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "concert",
+    "ipa": "ˈkɒnsət",
+    "meaning": [
+      "n. 音乐会；演奏会",
+      "n. 一致；协作"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "concert",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "public musical performance",
+        "zh": "音乐会；演奏会",
+        "ex": "concert tickets",
+        "translation": "音乐会门票"
+      },
+      {
+        "pos": "n.",
+        "en": "agreement or cooperation",
+        "zh": "一致；协作",
+        "ex": "in concert with",
+        "translation": "与……协同"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/concert",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "theater",
+    "ipa": "ˈθɪətə",
+    "meaning": [
+      "n. 剧院；电影院",
+      "n. 戏剧；戏剧艺术",
+      "n. 活动场所；战区；手术室"
+    ],
+    "roots": [],
+    "confusion": "threat n. 威胁；可能造成危害的人或事",
+    "forms": "英式拼写 theatre",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "theater",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "building for performances",
+        "zh": "剧院；电影院",
+        "ex": "theater tickets",
+        "translation": "剧院门票"
+      },
+      {
+        "pos": "n.",
+        "en": "dramatic art or performance",
+        "zh": "戏剧；戏剧艺术",
+        "ex": "modern theater",
+        "translation": "现代戏剧"
+      },
+      {
+        "pos": "n.",
+        "en": "area of activity or operation",
+        "zh": "活动场所；战区；手术室",
+        "ex": "operating theatre",
+        "translation": "手术室"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/theater",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "facilitate",
+    "ipa": "fəˈsɪlɪteɪt",
+    "meaning": [
+      "v. 促进；便利；使容易"
+    ],
+    "roots": [
+      {
+        "word": "facility",
+        "ipa": "fəˈsɪləti",
+        "meaning": "n. 设施；便利；能力（词源关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "facilitate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "make easier or possible",
+        "zh": "促进；便利；使容易",
+        "ex": "facilitate learning",
+        "translation": "促进学习"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/facilitate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "in addition",
+    "ipa": "ɪn əˈdɪʃn",
+    "meaning": [
+      "phr. 此外；另外"
+    ],
+    "roots": [
+      {
+        "word": "add",
+        "ipa": "æd",
+        "meaning": "v. 添加；补充；相加",
+        "checked": false
+      },
+      {
+        "word": "addition",
+        "ipa": "əˈdɪʃn",
+        "meaning": "n. 添加；增加；加法",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "in addition",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr.",
+        "en": "also; furthermore",
+        "zh": "此外；另外",
+        "ex": "in addition to education",
+        "translation": "除教育之外"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/in-addition",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "decline",
+    "ipa": "dɪˈklaɪn",
+    "meaning": [
+      "n. 下降；衰退",
+      "v. 减少；衰退",
+      "v. 婉拒；谢绝"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "decline",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "decrease or deterioration",
+        "zh": "下降；衰退",
+        "ex": "decline in population",
+        "translation": "人口下降"
+      },
+      {
+        "pos": "v.",
+        "en": "become less or worse",
+        "zh": "减少；衰退",
+        "ex": "sales decline",
+        "translation": "销量下降"
+      },
+      {
+        "pos": "v.",
+        "en": "politely refuse",
+        "zh": "婉拒；谢绝",
+        "ex": "decline an invitation",
+        "translation": "谢绝邀请"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/decline",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "stem",
+    "ipa": "stem",
+    "meaning": [
+      "n. 茎；柄",
+      "n. 词干",
+      "v. 源于；起因于",
+      "v. 遏制；阻止"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "stem",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "main stalk of a plant",
+        "zh": "茎；柄",
+        "ex": "plant stem",
+        "translation": "植物茎"
+      },
+      {
+        "pos": "n.",
+        "en": "base form of a word",
+        "zh": "词干",
+        "ex": "word stem",
+        "translation": "词干"
+      },
+      {
+        "pos": "v.",
+        "en": "originate from",
+        "zh": "源于；起因于",
+        "ex": "stem from a problem",
+        "translation": "源于一个问题"
+      },
+      {
+        "pos": "v.",
+        "en": "stop or restrict a flow",
+        "zh": "遏制；阻止",
+        "ex": "stem the tide",
+        "translation": "遏制趋势"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/stem",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "in part",
+    "ipa": "ɪn pɑːt",
+    "meaning": [
+      "phr. 部分地；在一定程度上"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "in part",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "phr.",
+        "en": "partly",
+        "zh": "部分地；在一定程度上",
+        "ex": "due in part to costs",
+        "translation": "部分归因于成本"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/in-part",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "ideology",
+    "ipa": "ˌaɪdiˈɒlədʒi",
+    "meaning": [
+      "n. 意识形态；思想体系"
+    ],
+    "roots": [
+      {
+        "word": "idea",
+        "ipa": "aɪˈdɪə",
+        "meaning": "n. 想法；观念（词源关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "ideology",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "system of beliefs and ideas",
+        "zh": "意识形态；思想体系",
+        "ex": "political ideology",
+        "translation": "政治意识形态"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/ideology",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "tutoring",
+    "ipa": "ˈtjuːtərɪŋ",
+    "meaning": [
+      "n. 辅导；课业辅导"
+    ],
+    "roots": [
+      {
+        "word": "tutor",
+        "ipa": "ˈtjuːtə",
+        "meaning": "n. 导师；家教；v. 辅导",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "tutoring",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "individual or small-group instruction",
+        "zh": "辅导；课业辅导",
+        "ex": "free tutoring",
+        "translation": "免费辅导"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/tutoring",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "program",
+    "ipa": "ˈprəʊɡræm",
+    "meaning": [
+      "n. 计划；项目；活动",
+      "n. 节目",
+      "n. 程序",
+      "v. 编程；安排"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "英式拼写 programme（计算机程序通常仍写 program）",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "program",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "planned activities or services",
+        "zh": "计划；项目；活动",
+        "ex": "reading program",
+        "translation": "阅读项目"
+      },
+      {
+        "pos": "n.",
+        "en": "broadcast or performance",
+        "zh": "节目",
+        "ex": "television program",
+        "translation": "电视节目"
+      },
+      {
+        "pos": "n.",
+        "en": "computer instructions",
+        "zh": "程序",
+        "ex": "computer program",
+        "translation": "计算机程序"
+      },
+      {
+        "pos": "v.",
+        "en": "write instructions or arrange",
+        "zh": "编程；安排",
+        "ex": "program a device",
+        "translation": "为设备编程"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/program",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "divide",
+    "ipa": "dɪˈvaɪd",
+    "meaning": [
+      "v. 分开；划分",
+      "v. 除；做除法",
+      "n. 差距；分歧；鸿沟"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "divide",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "separate into parts",
+        "zh": "分开；划分",
+        "ex": "divide into groups",
+        "translation": "分成小组"
+      },
+      {
+        "pos": "v.",
+        "en": "calculate how many times",
+        "zh": "除；做除法",
+        "ex": "divide by two",
+        "translation": "除以二"
+      },
+      {
+        "pos": "n.",
+        "en": "gap or disagreement",
+        "zh": "差距；分歧；鸿沟",
+        "ex": "economic divide",
+        "translation": "经济鸿沟"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/divide",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "hire",
+    "ipa": "ˈhaɪə",
+    "meaning": [
+      "v. 雇用；聘请",
+      "v. 租用",
+      "n. 租用；雇用"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "hire",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "employ someone",
+        "zh": "雇用；聘请",
+        "ex": "hire a tutor",
+        "translation": "聘请家教"
+      },
+      {
+        "pos": "v.",
+        "en": "pay to use temporarily",
+        "zh": "租用",
+        "ex": "hire a car",
+        "translation": "租汽车"
+      },
+      {
+        "pos": "n.",
+        "en": "act of hiring",
+        "zh": "租用；雇用",
+        "ex": "car hire",
+        "translation": "汽车租赁"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/hire",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "participate",
+    "ipa": "pɑːˈtɪsɪpeɪt",
+    "meaning": [
+      "v. 参加；参与"
+    ],
+    "roots": [
+      {
+        "word": "participation",
+        "ipa": "pɑːˌtɪsɪˈpeɪʃn",
+        "meaning": "n. 参与（派生词）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "participate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "take part in an activity",
+        "zh": "参加；参与",
+        "ex": "participate in the arts",
+        "translation": "参与艺术活动"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/participate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "immediate",
+    "ipa": "ɪˈmiːdiət",
+    "meaning": [
+      "adj. 立即的；即时的",
+      "adj. 紧邻的；直接的",
+      "adj. 当前的；直接的"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "immediate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "happening without delay",
+        "zh": "立即的；即时的",
+        "ex": "immediate response",
+        "translation": "立即回应"
+      },
+      {
+        "pos": "adj.",
+        "en": "nearest in space or relationship",
+        "zh": "紧邻的；直接的",
+        "ex": "immediate surroundings",
+        "translation": "周围环境"
+      },
+      {
+        "pos": "adj.",
+        "en": "most urgent or direct",
+        "zh": "当前的；直接的",
+        "ex": "immediate needs",
+        "translation": "眼下需求"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/immediate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "innovative",
+    "ipa": "ˈɪnəvətɪv",
+    "meaning": [
+      "adj. 创新的；革新的"
+    ],
+    "roots": [
+      {
+        "word": "innovate",
+        "ipa": "ˈɪnəveɪt",
+        "meaning": "v. 创新；革新",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "innovative",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adj.",
+        "en": "using new ideas or methods",
+        "zh": "创新的；革新的",
+        "ex": "innovative services",
+        "translation": "创新服务"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/innovative",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "maintain",
+    "ipa": "meɪnˈteɪn",
+    "meaning": [
+      "v. 维护；保养",
+      "v. 保持；维持",
+      "v. 坚持认为"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "maintain",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "keep in good condition",
+        "zh": "维护；保养",
+        "ex": "maintain equipment",
+        "translation": "维护设备"
+      },
+      {
+        "pos": "v.",
+        "en": "keep at the same level",
+        "zh": "保持；维持",
+        "ex": "maintain connections",
+        "translation": "维持联系"
+      },
+      {
+        "pos": "v.",
+        "en": "state firmly as true",
+        "zh": "坚持认为",
+        "ex": "maintain that it is true",
+        "translation": "坚持认为这是真的"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/maintain",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "convince",
+    "ipa": "kənˈvɪns",
+    "meaning": [
+      "v. 使相信；使信服",
+      "v. 说服"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "convince",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "make someone believe",
+        "zh": "使相信；使信服",
+        "ex": "convince someone of the facts",
+        "translation": "使某人相信事实"
+      },
+      {
+        "pos": "v.",
+        "en": "persuade someone to act",
+        "zh": "说服",
+        "ex": "convince someone to help",
+        "translation": "说服某人帮忙"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/convince",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "advocate",
+    "ipa": "ˈædvəkeɪt",
+    "meaning": [
+      "v. 提倡；主张",
+      "n. 倡导者；支持者"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "名词 /ˈædvəkət/；动词 /ˈædvəkeɪt/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "advocate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "publicly support",
+        "zh": "提倡；主张",
+        "ex": "advocate equal access",
+        "translation": "倡导平等获取机会"
+      },
+      {
+        "pos": "n.",
+        "en": "person who supports a cause",
+        "zh": "倡导者；支持者",
+        "ex": "advocate of public libraries",
+        "translation": "公共图书馆的支持者"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/advocate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "continually",
+    "ipa": "kənˈtɪnjuəli",
+    "meaning": [
+      "adv. 不断地；频繁地"
+    ],
+    "roots": [
+      {
+        "word": "continue",
+        "ipa": "kənˈtɪnjuː",
+        "meaning": "v. 继续；持续",
+        "checked": false
+      },
+      {
+        "word": "continual",
+        "ipa": "kənˈtɪnjuəl",
+        "meaning": "adj. 不断的；频繁的",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "continually",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "adv.",
+        "en": "repeatedly or very frequently",
+        "zh": "不断地；频繁地",
+        "ex": "continually rising costs",
+        "translation": "不断上涨的成本"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/continually",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "remain",
+    "ipa": "rɪˈmeɪn",
+    "meaning": [
+      "v. 仍然是；保持",
+      "v. 留下；停留",
+      "v. 剩余；尚待"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "remain",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "continue in the same state",
+        "zh": "仍然是；保持",
+        "ex": "remain open",
+        "translation": "仍然开放"
+      },
+      {
+        "pos": "v.",
+        "en": "stay in a place",
+        "zh": "留下；停留",
+        "ex": "remain at home",
+        "translation": "留在家里"
+      },
+      {
+        "pos": "v.",
+        "en": "be left over",
+        "zh": "剩余；尚待",
+        "ex": "much remains to be done",
+        "translation": "还有许多事要做"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/remain",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "crowd",
+    "ipa": "kraʊd",
+    "meaning": [
+      "n. 人群；群众",
+      "v. 挤满；聚集"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "crowd",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "large group of people",
+        "zh": "人群；群众",
+        "ex": "draw large crowds",
+        "translation": "吸引大量人群"
+      },
+      {
+        "pos": "v.",
+        "en": "fill or gather closely",
+        "zh": "挤满；聚集",
+        "ex": "crowd into a room",
+        "translation": "挤进房间"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/crowd",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "underestimate",
+    "ipa": "ˌʌndərˈestɪmeɪt",
+    "meaning": [
+      "v. 低估；轻视",
+      "n. 过低的估计"
+    ],
+    "roots": [
+      {
+        "word": "estimate",
+        "ipa": "ˈestɪmeɪt",
+        "meaning": "v. 估计；估算；n. 估计（名词 /ˈestɪmət/）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "名词 /ˌʌndərˈestɪmət/；动词 /ˌʌndərˈestɪmeɪt/",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "underestimate",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "judge as less than reality",
+        "zh": "低估；轻视",
+        "ex": "underestimate the importance",
+        "translation": "低估重要性"
+      },
+      {
+        "pos": "n.",
+        "en": "estimate that is too low",
+        "zh": "过低的估计",
+        "ex": "a serious underestimate",
+        "translation": "严重低估"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/underestimate",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "adolescent",
+    "ipa": "ˌædəˈlesnt",
+    "meaning": [
+      "n. 青少年",
+      "adj. 青春期的；青少年的"
+    ],
+    "roots": [
+      {
+        "word": "adolescence",
+        "ipa": "ˌædəˈlesns",
+        "meaning": "n. 青春期（词族关联）",
+        "checked": false
+      }
+    ],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "adolescent",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "young person developing into an adult",
+        "zh": "青少年",
+        "ex": "children and adolescents",
+        "translation": "儿童和青少年"
+      },
+      {
+        "pos": "adj.",
+        "en": "relating to adolescence",
+        "zh": "青春期的；青少年的",
+        "ex": "adolescent development",
+        "translation": "青少年发展"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/adolescent",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "charge",
+    "ipa": "tʃɑːdʒ",
+    "meaning": [
+      "n. 费用；收费",
+      "n. 负责；掌管",
+      "n. 指控",
+      "n. 电荷；电量",
+      "v. 收费；要价",
+      "v. 指控",
+      "v. 充电；冲锋"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "charge",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "n.",
+        "en": "amount of money asked for",
+        "zh": "费用；收费",
+        "ex": "free of charge",
+        "translation": "免费"
+      },
+      {
+        "pos": "n.",
+        "en": "responsibility or control",
+        "zh": "负责；掌管",
+        "ex": "in charge of",
+        "translation": "负责"
+      },
+      {
+        "pos": "n.",
+        "en": "formal accusation",
+        "zh": "指控",
+        "ex": "criminal charge",
+        "translation": "刑事指控"
+      },
+      {
+        "pos": "n.",
+        "en": "electrical energy or property",
+        "zh": "电荷；电量",
+        "ex": "electric charge",
+        "translation": "电荷"
+      },
+      {
+        "pos": "v.",
+        "en": "ask for payment",
+        "zh": "收费；要价",
+        "ex": "charge a fee",
+        "translation": "收取费用"
+      },
+      {
+        "pos": "v.",
+        "en": "accuse formally",
+        "zh": "指控",
+        "ex": "charge someone with theft",
+        "translation": "指控某人盗窃"
+      },
+      {
+        "pos": "v.",
+        "en": "supply electricity or rush forward",
+        "zh": "充电；冲锋",
+        "ex": "charge a battery",
+        "translation": "给电池充电"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/charge",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
+  },
+  {
+    "word": "perform",
+    "ipa": "pəˈfɔːm",
+    "meaning": [
+      "v. 执行；履行；完成",
+      "v. 表演；演出",
+      "v. 表现；运行"
+    ],
+    "roots": [],
+    "confusion": "",
+    "forms": "",
+    "sources": [
+      "2025年6月第1套 · 长篇阅读"
+    ],
+    "dict": "perform",
+    "checked": false,
+    "senses": [
+      {
+        "pos": "v.",
+        "en": "carry out a task",
+        "zh": "执行；履行；完成",
+        "ex": "perform services",
+        "translation": "提供服务"
+      },
+      {
+        "pos": "v.",
+        "en": "entertain an audience",
+        "zh": "表演；演出",
+        "ex": "perform on stage",
+        "translation": "登台表演"
+      },
+      {
+        "pos": "v.",
+        "en": "function or achieve results",
+        "zh": "表现；运行",
+        "ex": "perform well",
+        "translation": "表现良好"
+      }
+    ],
+    "ipaNote": "英式读音由 AI 整理，未逐项核对",
+    "dictionarySources": [],
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/perform",
+    "dictionaryLabel": "剑桥英汉词典查询",
+    "referenceChecked": false
   }
 ];
 </script><script>
