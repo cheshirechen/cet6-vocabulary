@@ -1,4 +1,4 @@
-/* V4: 剑桥词典义项及读音整理；搭配以词典为依据优先，少量学习示例。 */
+/* V4: 每次仅添加用户确认的黄色高亮。义项、中文释义、读音参考权威词典，不凭经验冒充词典；短语读音为合成标注，例句优先词典搭配并区分改写。保留用户标注易混词。 */
 window.VOCAB_VERSION='4';
 window.VOCAB = [
   {
@@ -141,9 +141,9 @@ window.VOCAB = [
     "roots": [
       {
         "word": "chronic",
-        "meaning": "adj. 慢性的；长期的",
+        "meaning": "adj. 慢性的；长期的；很糟糕的（英式非正式）",
         "ipa": "ˈkrɒnɪk",
-        "checked": false
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1426,9 +1426,9 @@ window.VOCAB = [
     "roots": [
       {
         "word": "prompt",
-        "meaning": "adj. 迅速的；v. 促使；n. 提示（动词搭配已核对，其余待核对）",
+        "meaning": "v. 引起；促使；给演员提词　adj. 迅速的；及时的　n. 提示符；提词；提词员　adv. 准时",
         "ipa": "prɒmpt",
-        "checked": false
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1632,15 +1632,15 @@ window.VOCAB = [
     "roots": [
       {
         "word": "comparative",
-        "meaning": "adj. 比较的；相对的",
+        "meaning": "n. 比较级　adj. 比较的；对比的；相对的；比较级的",
         "ipa": "kəmˈpærətɪv",
-        "checked": false
+        "checked": true
       },
       {
         "word": "compare",
-        "meaning": "v. 比较；比作",
+        "meaning": "v. 比较；对照；把……比作；认为相似",
         "ipa": "kəmˈpeə",
-        "checked": false
+        "checked": true
       }
     ],
     "confusion": "",
