@@ -1,5 +1,5 @@
-/* V4.2: 金山词霸简明释义已读取的词条单独显示；旧的双语义项是学习性补充，不冒充词典原文。 */
-window.VOCAB_VERSION='4.2';
+/* V4.3: 保留金山词霸中文释义；双语学习补充采用 AI 归纳；查询链接使用剑桥英汉词典。 */
+window.VOCAB_VERSION='4.3';
 window.VOCAB = [
   {
     "word": "official",
@@ -51,9 +51,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=official",
-    "dictionaryLabel": "金山词霸 · official",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/official",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adj.",
@@ -65,7 +65,9 @@ window.VOCAB = [
       }
     ],
     "referenceChecked": true,
-    "referenceNote": "重复的「公务的」仅显示一次"
+    "referenceNote": "重复的「公务的」仅显示一次",
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=official"
   },
   {
     "word": "deplore",
@@ -93,16 +95,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=deplore",
-    "dictionaryLabel": "金山词霸 · deplore",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/deplore",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
         "zh": "谴责；强烈反对"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=deplore"
   },
   {
     "word": "instruction",
@@ -153,9 +157,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=instruction",
-    "dictionaryLabel": "金山词霸 · instruction",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/instruction",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
@@ -166,7 +170,9 @@ window.VOCAB = [
         "zh": "说明用法的"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=instruction"
   },
   {
     "word": "chronically",
@@ -201,16 +207,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=chronically",
-    "dictionaryLabel": "金山词霸 · chronically",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/chronically",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adv.",
         "zh": "慢性地，长期地"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=chronically"
   },
   {
     "word": "secretary",
@@ -270,16 +278,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=secretary",
-    "dictionaryLabel": "金山词霸 · secretary",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/secretary",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "秘书；书记员；助理；部长"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=secretary"
   },
   {
     "word": "respond to",
@@ -315,9 +325,9 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=respond",
-    "dictionaryLabel": "金山词霸 · respond",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/respond",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v. phr.",
@@ -325,7 +335,9 @@ window.VOCAB = [
       }
     ],
     "referenceChecked": true,
-    "referenceNote": "参见 respond 词条；短语音标为组合标注"
+    "referenceNote": "参见 respond 词条；短语音标为组合标注",
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=respond"
   },
   {
     "word": "crisis",
@@ -369,16 +381,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=crisis",
-    "dictionaryLabel": "金山词霸 · crisis",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/crisis",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "危机；危急关头"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=crisis"
   },
   {
     "word": "urge",
@@ -415,9 +429,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=urge",
-    "dictionaryLabel": "金山词霸 · urge",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/urge",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
@@ -428,7 +442,9 @@ window.VOCAB = [
         "zh": "冲动；强烈的欲望"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=urge"
   },
   {
     "word": "community",
@@ -472,16 +488,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=community",
-    "dictionaryLabel": "金山词霸 · community",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/community",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "社会（团体）；共有；(生物)群落"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=community"
   },
   {
     "word": "after all",
@@ -517,16 +535,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=after%20all",
-    "dictionaryLabel": "金山词霸 · after all",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/after-all",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "phr.",
         "zh": "毕竟；别忘了"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=after%20all"
   },
   {
     "word": "show up",
@@ -562,16 +582,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=show%20up",
-    "dictionaryLabel": "金山词霸 · show up",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/show-up",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "phr. v.",
         "zh": "显而易见；到场；（使）看得见；羞辱"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=show%20up"
   },
   {
     "word": "what if",
@@ -599,12 +621,14 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=what%20if",
-    "dictionaryLabel": "金山词霸 · what if",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/what-if",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [],
     "referenceChecked": false,
-    "referenceNote": "短语页面未能读取；暂保留学习性释义"
+    "referenceNote": "短语页面未能读取；暂保留学习性释义",
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=what%20if"
   },
   {
     "word": "reflection",
@@ -663,16 +687,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=reflection",
-    "dictionaryLabel": "金山词霸 · reflection",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/reflection",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "映像，倒影；体现；深思；反射；描述；感想"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=reflection"
   },
   {
     "word": "eject",
@@ -716,16 +742,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=eject",
-    "dictionaryLabel": "金山词霸 · eject",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/eject",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
         "zh": "驱逐；喷出，射出；弹出"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=eject"
   },
   {
     "word": "apartment",
@@ -761,16 +789,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=apartment",
-    "dictionaryLabel": "金山词霸 · apartment",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/apartment",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "公寓套房；（总统等要人的）套间"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=apartment"
   },
   {
     "word": "investigate",
@@ -798,16 +828,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=investigate",
-    "dictionaryLabel": "金山词霸 · investigate",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/investigate",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
         "zh": "调查；研究"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=investigate"
   },
   {
     "word": "relate to",
@@ -851,16 +883,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=relate%20to",
-    "dictionaryLabel": "金山词霸 · relate to",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/relate-to",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "phr. v.",
         "zh": "与...相关；涉及；谈到"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=relate%20to"
   },
   {
     "word": "parent",
@@ -896,16 +930,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=parent",
-    "dictionaryLabel": "金山词霸 · parent",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/parent",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "父亲（或母亲）；先辈；根源，起源；保护者"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=parent"
   },
   {
     "word": "signal",
@@ -975,9 +1011,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=signal",
-    "dictionaryLabel": "金山词霸 · signal",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/signal",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
@@ -992,7 +1028,9 @@ window.VOCAB = [
         "zh": "重大的"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=signal"
   },
   {
     "word": "hardship",
@@ -1027,16 +1065,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=hardship",
-    "dictionaryLabel": "金山词霸 · hardship",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/hardship",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "艰苦，贫困"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=hardship"
   },
   {
     "word": "cause",
@@ -1098,9 +1138,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=cause",
-    "dictionaryLabel": "金山词霸 · cause",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/cause",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
@@ -1111,7 +1151,9 @@ window.VOCAB = [
         "zh": "原因；理由；事业；诉讼案"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=cause"
   },
   {
     "word": "regardless of",
@@ -1146,16 +1188,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=regardless%20of",
-    "dictionaryLabel": "金山词霸 · regardless of",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/regardless",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "prep. phr.",
         "zh": "不管；不顾"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=regardless%20of"
   },
   {
     "word": "assume",
@@ -1199,16 +1243,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=assume",
-    "dictionaryLabel": "金山词霸 · assume",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/assume",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
         "zh": "假设，认为；承担（责任）；获得（权利）；呈现；假装"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=assume"
   },
   {
     "word": "intervene",
@@ -1244,16 +1290,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=intervene",
-    "dictionaryLabel": "金山词霸 · intervene",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/intervene",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
         "zh": "出面；介入；阻碍；干扰；插嘴；介于…之间"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=intervene"
   },
   {
     "word": "case",
@@ -1338,16 +1386,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=case",
-    "dictionaryLabel": "金山词霸 · case",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/case",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "情况；事例；事实；病例；案件；诉讼；辩词；盒，箱；（语法）格"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=case"
   },
   {
     "word": "as a result",
@@ -1383,16 +1433,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=as%20a%20result",
-    "dictionaryLabel": "金山词霸 · as a result",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/result",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "phr.",
         "zh": "所以；结果(是)"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=as%20a%20result"
   },
   {
     "word": "disproportionately",
@@ -1440,16 +1492,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=disproportionately",
-    "dictionaryLabel": "金山词霸 · disproportionately",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/disproportionately",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adv.",
         "zh": "不匀称，不相称"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=disproportionately"
   },
   {
     "word": "deal with",
@@ -1493,16 +1547,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=deal%20with",
-    "dictionaryLabel": "金山词霸 · deal with",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/deal-with",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "phr. v.",
         "zh": "处理，应付"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=deal%20with"
   },
   {
     "word": "serve",
@@ -1595,9 +1651,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=serve",
-    "dictionaryLabel": "金山词霸 · serve",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/serve",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
@@ -1608,7 +1664,9 @@ window.VOCAB = [
         "zh": "发球"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=serve"
   },
   {
     "word": "channel",
@@ -1685,9 +1743,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=channel",
-    "dictionaryLabel": "金山词霸 · channel",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/channel",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
@@ -1698,7 +1756,9 @@ window.VOCAB = [
         "zh": "将(精力或情感)专注于；输送（资金）"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=channel"
   },
   {
     "word": "resource",
@@ -1743,16 +1803,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=resource",
-    "dictionaryLabel": "金山词霸 · resource",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/resource",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
         "zh": "资源；物力，财力；办法；智谋"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=resource"
   },
   {
     "word": "promptly",
@@ -1787,16 +1849,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=promptly",
-    "dictionaryLabel": "金山词霸 · promptly",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/promptly",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adv.",
         "zh": "敏捷地；迅速地；立即地；毫不迟疑"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=promptly"
   },
   {
     "word": "deplorable",
@@ -1831,16 +1895,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=deplorable",
-    "dictionaryLabel": "金山词霸 · deplorable",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/deplorable",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adj.",
         "zh": "糟透的，可叹的，可悲的；应受谴责的；破旧的"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=deplorable"
   },
   {
     "word": "attribute",
@@ -1885,9 +1951,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=attribute",
-    "dictionaryLabel": "金山词霸 · attribute",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/attribute",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
@@ -1899,7 +1965,9 @@ window.VOCAB = [
       }
     ],
     "referenceChecked": true,
-    "referenceNote": "词霸当前页面只列动词音标；下列名词音标尚未重新核对"
+    "referenceNote": "词霸当前页面只列动词音标；下列名词音标尚未重新核对",
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=attribute"
   },
   {
     "word": "effect",
@@ -1952,9 +2020,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=effect",
-    "dictionaryLabel": "金山词霸 · effect",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/effect",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
@@ -1965,7 +2033,9 @@ window.VOCAB = [
         "zh": "使发生，引起"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=effect"
   },
   {
     "word": "lead to",
@@ -2002,16 +2072,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=lead%20to",
-    "dictionaryLabel": "金山词霸 · lead to",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/lead-to",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "phr. v.",
         "zh": "导致"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=lead%20to"
   },
   {
     "word": "comparatively",
@@ -2052,16 +2124,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=comparatively",
-    "dictionaryLabel": "金山词霸 · comparatively",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/comparatively",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adv.",
         "zh": "对比地；相对地；比较地；有点"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=comparatively"
   },
   {
     "word": "concerning",
@@ -2105,9 +2179,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=concerning",
-    "dictionaryLabel": "金山词霸 · concerning",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/concerning",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "prep.",
@@ -2122,7 +2196,9 @@ window.VOCAB = [
         "zh": "与…相关；关心；使担忧（concern的现在分词）"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=concerning"
   },
   {
     "word": "due to",
@@ -2150,16 +2226,18 @@ window.VOCAB = [
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=due%20to",
-    "dictionaryLabel": "金山词霸 · due to",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/due-to",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "prep. phr.",
         "zh": "由于；因为"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=due%20to"
   },
   {
     "word": "confront",
@@ -2187,16 +2265,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=confront",
-    "dictionaryLabel": "金山词霸 · confront",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/confront",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
         "zh": "面对，使面临；正视；与…对峙"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=confront"
   },
   {
     "word": "formulate",
@@ -2231,16 +2311,18 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=formulate",
-    "dictionaryLabel": "金山词霸 · formulate",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/formulate",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "vt.",
         "zh": "构想出，规划；确切地阐述；用公式表示"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=formulate"
   },
   {
     "word": "boost",
@@ -2277,9 +2359,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=boost",
-    "dictionaryLabel": "金山词霸 · boost",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/boost",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "v.",
@@ -2290,7 +2372,9 @@ window.VOCAB = [
         "zh": "帮助，激励；增长，提高；向上一推"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=boost"
   },
   {
     "word": "regarding",
@@ -2325,9 +2409,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=regarding",
-    "dictionaryLabel": "金山词霸 · regarding",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/regarding",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "prep.",
@@ -2338,7 +2422,9 @@ window.VOCAB = [
         "zh": "regard的现在分词"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=regarding"
   },
   {
     "word": "identify",
@@ -2398,9 +2484,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=identify",
-    "dictionaryLabel": "金山词霸 · identify",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/identify",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "vt.",
@@ -2411,7 +2497,9 @@ window.VOCAB = [
         "zh": "确定；认同"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=identify"
   },
   {
     "word": "underlying",
@@ -2471,9 +2559,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=underlying",
-    "dictionaryLabel": "金山词霸 · underlying",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/underlying",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adj.",
@@ -2484,7 +2572,9 @@ window.VOCAB = [
         "zh": "优先于(underlie的ing形式)；构成…的基础（或起因），引起"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=underlying"
   },
   {
     "word": "direct",
@@ -2578,9 +2668,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=direct",
-    "dictionaryLabel": "金山词霸 · direct",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/direct",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "adj.",
@@ -2595,7 +2685,9 @@ window.VOCAB = [
         "zh": "直接地；亲自地"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=direct"
   },
   {
     "word": "frame",
@@ -2695,9 +2787,9 @@ window.VOCAB = [
     ],
     "ipaNote": "",
     "dictionarySources": [],
-    "exampleNote": "以词典例句中的短搭配为主，部分调整形式或自拟以便记忆；中文为整理译文。",
-    "dictionaryUrl": "https://www.iciba.com/word?w=frame",
-    "dictionaryLabel": "金山词霸 · frame",
+    "exampleNote": "双语学习补充为 AI 归纳，非词典逐字释义。",
+    "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/frame",
+    "dictionaryLabel": "剑桥英汉词典查询",
     "referenceGlosses": [
       {
         "pos": "n.",
@@ -2708,6 +2800,8 @@ window.VOCAB = [
         "zh": "给…装/做框；表达制定；诬陷"
       }
     ],
-    "referenceChecked": true
+    "referenceChecked": true,
+    "referenceSource": "金山词霸",
+    "referenceSourceUrl": "https://www.iciba.com/word?w=frame"
   }
 ];
