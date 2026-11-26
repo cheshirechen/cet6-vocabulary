@@ -1,4 +1,4 @@
-/* V4: 全部正式词条参考剑桥英汉简体词典；学习性改写，非词典全文。附属词核验状态单独记录。 */
+/* V4: 剑桥词典义项及读音整理；搭配以词典为依据优先，少量学习示例。 */
 window.VOCAB_VERSION='4';
 window.VOCAB = [
   {
@@ -1089,7 +1089,7 @@ window.VOCAB = [
     "word": "as a result",
     "ipa": "əz ə rɪˈzʌlt",
     "meaning": [
-      "phr. 因此；所以；结果"
+      "phr. 因此；所以；结果；由于……（as a result of）"
     ],
     "roots": [],
     "confusion": "",
@@ -1104,8 +1104,16 @@ window.VOCAB = [
         "pos": "phr.",
         "en": "consequently",
         "zh": "因此；所以；结果",
-        "ex": "as a result of something",
-        "translation": "由于某事（带 of 的相关搭配）"
+        "ex": "As a result, prices rose.",
+        "translation": "因此价格上涨了。",
+        "exampleSource": "学习示例"
+      },
+      {
+        "pos": "phr.",
+        "en": "because of something (as a result of)",
+        "zh": "由于……；作为……的结果（带 of）",
+        "ex": "as a result of the recent drop in sales",
+        "translation": "由于近期销量下降"
       }
     ],
     "ipaNote": "短语音标按组成词及常见读法合成",
@@ -1124,15 +1132,16 @@ window.VOCAB = [
     "roots": [
       {
         "word": "disproportionate",
-        "meaning": "adj. 不成比例的",
+        "meaning": "adj. 不成比例的；不相称的",
         "ipa": "ˌdɪsprəˈpɔːʃənət",
-        "checked": false
+        "checked": true
       },
       {
         "word": "proportionate",
-        "meaning": "adj. 成比例的；相称的",
+        "meaning": "adj. 成比例的；相称的（剑桥英文词典释义译写）",
         "ipa": "prəˈpɔːʃənət",
-        "checked": false
+        "checked": true,
+        "sourceUrl": "https://dictionary.cambridge.org/dictionary/english/proportionate"
       },
       {
         "word": "proportion",
@@ -1417,7 +1426,7 @@ window.VOCAB = [
     "roots": [
       {
         "word": "prompt",
-        "meaning": "adj. 迅速的；v. 促使；n. 提示",
+        "meaning": "adj. 迅速的；v. 促使；n. 提示（动词搭配已核对，其余待核对）",
         "ipa": "prɒmpt",
         "checked": false
       }
@@ -1748,7 +1757,7 @@ window.VOCAB = [
         "pos": "v.",
         "en": "face a difficult situation or person",
         "zh": "面对；面临；遭遇；正视",
-        "ex": "be confronted with problems",
+        "ex": "be confronted with a lot of problems",
         "translation": "面临问题"
       }
     ],
@@ -1878,8 +1887,8 @@ window.VOCAB = [
       {
         "word": "identity",
         "ipa": "aɪˈdentəti",
-        "meaning": "n. 身份；特征；同一性（同源词）",
-        "checked": false
+        "meaning": "n. 身份；本身；特性（关联词）",
+        "checked": true
       }
     ],
     "confusion": "",
@@ -1974,8 +1983,9 @@ window.VOCAB = [
         "pos": "v.",
         "en": "be a hidden cause or influence",
         "zh": "是……的深层原因；对……有重大影响（underlie 的现在分词）",
-        "ex": "underlying psychological problems",
-        "translation": "潜在的心理问题"
+        "ex": "assumptions underlying education policies",
+        "translation": "构成教育政策基础的假设",
+        "exampleSource": "学习示例（结合真题）"
       }
     ],
     "ipaNote": "",
@@ -2113,8 +2123,9 @@ window.VOCAB = [
         "pos": "n.",
         "en": "triangle for arranging billiard balls",
         "zh": "台球摆球三角框",
-        "ex": "a snooker frame",
-        "translation": "斯诺克摆球框（学习示例）"
+        "ex": "a triangular frame for arranging balls",
+        "translation": "用于摆球的三角框",
+        "exampleSource": "根据词典义项改写"
       },
       {
         "pos": "n.",
@@ -2128,7 +2139,8 @@ window.VOCAB = [
         "en": "single picture in film",
         "zh": "画格；画面；帧",
         "ex": "a film frame",
-        "translation": "电影画面（学习示例）"
+        "translation": "电影画面；一帧",
+        "exampleSource": "学习示例"
       },
       {
         "pos": "v.",
